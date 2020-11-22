@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-22T09:19:04.721Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36" etag="BcAZ34g0ouUrGuXRPOUW" version="13.9.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-22T09:23:08.071Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36" etag="Xbd6chukQQHSxYQwL20O" version="13.9.2" type="github">
   <diagram name="Page-1" id="b7a7eaba-c6c5-6fbe-34ae-1d3a4219ac39">
     <mxGraphModel dx="782" dy="469" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="#ffffff" math="0" shadow="0">
       <root>
@@ -26,37 +26,49 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4G2GctbEYuqO2iwRU9gP-19" value="项目通用技能" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="110" width="90" height="30" as="geometry" />
+          <mxGeometry x="235" y="260" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4G2GctbEYuqO2iwRU9gP-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4G2GctbEYuqO2iwRU9gP-31" target="4G2GctbEYuqO2iwRU9gP-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4G2GctbEYuqO2iwRU9gP-31" value="运动能力" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="60" y="410" width="90" height="30" as="geometry" />
+          <mxGeometry x="60" y="630" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4G2GctbEYuqO2iwRU9gP-32" value="慢跑三公里" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="410" width="90" height="30" as="geometry" />
+          <mxGeometry x="200" y="630" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4G2GctbEYuqO2iwRU9gP-34" value="阅读/写作能力" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="60" y="480" width="90" height="30" as="geometry" />
+          <mxGeometry x="60" y="700" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4G2GctbEYuqO2iwRU9gP-35" value="旅行能力" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="60" y="540" width="90" height="30" as="geometry" />
+          <mxGeometry x="60" y="760" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4G2GctbEYuqO2iwRU9gP-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4G2GctbEYuqO2iwRU9gP-36" target="4G2GctbEYuqO2iwRU9gP-37">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4G2GctbEYuqO2iwRU9gP-36" value="打字能力" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="390" y="80" width="90" height="30" as="geometry" />
+          <mxGeometry x="375" y="230" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4G2GctbEYuqO2iwRU9gP-37" value="每分钟100字" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="500" y="80" width="90" height="30" as="geometry" />
+          <mxGeometry x="485" y="230" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4G2GctbEYuqO2iwRU9gP-39" value="熟练使用工具能力" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="390" y="140" width="90" height="30" as="geometry" />
+          <mxGeometry x="375" y="290" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4G2GctbEYuqO2iwRU9gP-43" value="编写测试框架能力" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="390" y="190" width="90" height="30" as="geometry" />
+          <mxGeometry x="375" y="340" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4G2GctbEYuqO2iwRU9gP-45" value="selinux" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="375" y="470" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4G2GctbEYuqO2iwRU9gP-46" value="jdk8新语法" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="375" y="400" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4G2GctbEYuqO2iwRU9gP-49" value="overlay" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="80" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4G2GctbEYuqO2iwRU9gP-50" value="集成移除编译配置" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="20" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
