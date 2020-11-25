@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-25T10:45:49.099Z" agent="5.0 (X11)" etag="yHm42MkAdBsDwdSnhqm6" version="13.10.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-11-25T11:24:22.706Z" agent="5.0 (X11)" etag="lzArw-S1s41eHyJum83f" version="13.10.2" type="github" pages="2">
   <diagram id="wFE0QG_FPsp0jaGvCLVb" name="Page-1">
     <mxGraphModel dx="1355" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -45,11 +45,41 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="OB2CQvIP_pF93qGlG-vM" name="Page-2">
+  <diagram id="-x9ymw5KhDv8MPtxY_vU" name="Page-2">
     <mxGraphModel dx="1355" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
-        <mxCell id="AmqEn5dA_tvBzHD8_bQl-0" />
-        <mxCell id="AmqEn5dA_tvBzHD8_bQl-1" parent="AmqEn5dA_tvBzHD8_bQl-0" />
+        <mxCell id="Qd0OxM6gDkYLaGl2a9qX-0" />
+        <mxCell id="Qd0OxM6gDkYLaGl2a9qX-1" parent="Qd0OxM6gDkYLaGl2a9qX-0" />
+        <mxCell id="Qd0OxM6gDkYLaGl2a9qX-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Qd0OxM6gDkYLaGl2a9qX-1" source="Qd0OxM6gDkYLaGl2a9qX-2" target="Qd0OxM6gDkYLaGl2a9qX-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qd0OxM6gDkYLaGl2a9qX-2" value="ThermalManagerService" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Qd0OxM6gDkYLaGl2a9qX-1">
+          <mxGeometry x="100" y="100" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qd0OxM6gDkYLaGl2a9qX-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Qd0OxM6gDkYLaGl2a9qX-1" source="Qd0OxM6gDkYLaGl2a9qX-3" target="Qd0OxM6gDkYLaGl2a9qX-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qd0OxM6gDkYLaGl2a9qX-3" value="ThermalHAL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Qd0OxM6gDkYLaGl2a9qX-1">
+          <mxGeometry x="100" y="180" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qd0OxM6gDkYLaGl2a9qX-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Qd0OxM6gDkYLaGl2a9qX-1" source="Qd0OxM6gDkYLaGl2a9qX-4" target="Qd0OxM6gDkYLaGl2a9qX-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qd0OxM6gDkYLaGl2a9qX-4" value="ThermalVendor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Qd0OxM6gDkYLaGl2a9qX-1">
+          <mxGeometry x="100" y="260" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qd0OxM6gDkYLaGl2a9qX-5" value="&lt;div&gt;Android8+&lt;/div&gt;&lt;div&gt;hardware/interfaces/thermal/&lt;br&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: monospace ; font-size: medium ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(255 , 255 , 255) ; display: inline ; float: none&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: monospace ; font-size: medium ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(255 , 255 , 255) ; display: inline ; float: none&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: monospace ; font-size: medium ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(255 , 255 , 255) ; display: inline ; float: none&quot;&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Qd0OxM6gDkYLaGl2a9qX-1">
+          <mxGeometry x="310" y="180" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qd0OxM6gDkYLaGl2a9qX-6" value="&lt;div&gt;Android11&lt;br&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: monospace ; font-size: medium ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(255 , 255 , 255) ; display: inline ; float: none&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: monospace ; font-size: medium ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(255 , 255 , 255) ; display: inline ; float: none&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: monospace ; font-size: medium ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(255 , 255 , 255) ; display: inline ; float: none&quot;&gt;&lt;/span&gt;vendor/mediatek/proprietary/hardware/thermal/&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Qd0OxM6gDkYLaGl2a9qX-1">
+          <mxGeometry x="310" y="260" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qd0OxM6gDkYLaGl2a9qX-9" value="&lt;font style=&quot;font-size: 19px&quot;&gt;Summary&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="Qd0OxM6gDkYLaGl2a9qX-1">
+          <mxGeometry x="30" y="30" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Qd0OxM6gDkYLaGl2a9qX-10" value="&lt;div&gt;Android8+&lt;/div&gt;&lt;div&gt;frameworks/base/services/core/java/com/android/server/power/ThermalManagerService.java&lt;br&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: monospace ; font-size: medium ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(255 , 255 , 255) ; display: inline ; float: none&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: monospace ; font-size: medium ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(255 , 255 , 255) ; display: inline ; float: none&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: monospace ; font-size: medium ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(255 , 255 , 255) ; display: inline ; float: none&quot;&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Qd0OxM6gDkYLaGl2a9qX-1">
+          <mxGeometry x="310" y="100" width="300" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
