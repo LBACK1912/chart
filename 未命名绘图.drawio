@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-18T11:49:33.630Z" agent="5.0 (X11)" etag="LSWI-rJuWCDZc93Z80Bi" version="13.11.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-12-18T11:53:31.391Z" agent="5.0 (X11)" etag="wxfePOHESfxDNPGHFd4C" version="13.11.0" type="github" pages="2">
   <diagram id="wFE0QG_FPsp0jaGvCLVb" name="Page-1">
     <mxGraphModel dx="1355" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -82,6 +82,9 @@
         </mxCell>
         <mxCell id="eiZtptMf8T_fQ70mtGjr-6" value="&lt;br&gt;&lt;div&gt;sensor_service.rc&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="eiZtptMf8T_fQ70mtGjr-1">
           <mxGeometry x="400" y="220" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eiZtptMf8T_fQ70mtGjr-12" value="android.os.SystemProperties" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="eiZtptMf8T_fQ70mtGjr-1">
+          <mxGeometry x="360" y="170" width="180" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
