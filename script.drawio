@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-04T13:56:19.779Z" agent="5.0 (Windows)" etag="RKaJtkAATpQoTxIuMjuP" version="14.1.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-01-04T14:31:23.238Z" agent="5.0 (Windows)" etag="nD6Psb06fu57zdct_3Nz" version="14.1.8" type="github" pages="2">
   <diagram id="w1wRk-W4YtJ-blJwXCV2" name="home">
     <mxGraphModel dx="782" dy="404" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -19,8 +19,20 @@
         <mxCell id="GEV6OYYQGzaBxieTXGS0-9" value="Mars" style="ellipse;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
           <mxGeometry x="320" y="350" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="GEV6OYYQGzaBxieTXGS0-10" value="Saturn" style="ellipse;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="340" y="480" width="120" height="80" as="geometry" />
+        <mxCell id="GEV6OYYQGzaBxieTXGS0-10" value="Saturn" style="ellipse;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="380" y="480" width="200" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="8_hnkTDXaNr-IeyhamRW-1" value="&lt;div&gt;70% metals&lt;br&gt;&lt;/div&gt;&lt;div&gt;30% &lt;strong&gt;&lt;i&gt;&lt;i class=&quot;01&quot;&gt;silicate&lt;/i&gt; &lt;/i&gt;&lt;/strong&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="140" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8_hnkTDXaNr-IeyhamRW-2" value="G&lt;div&gt;75%hydrogen &lt;br&gt;&lt;/div&gt;&lt;div&gt;25%helium&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="480" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8_hnkTDXaNr-IeyhamRW-3" value="Jupiter" style="ellipse;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="100" y="480" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="8_hnkTDXaNr-IeyhamRW-4" value="G&lt;div&gt;75%hydrogen &lt;br&gt;&lt;/div&gt;&lt;div&gt;25%helium&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="480" width="90" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
