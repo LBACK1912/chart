@@ -1,1 +1,105 @@
-<mxfile host="app.diagrams.net" modified="2021-01-25T03:07:02.246Z" agent="5.0 (X11)" version="14.2.7" etag="MOaGHkp1m-SIek3FN3oF" type="github"><diagram id="dWmSh3rdpuQd5Bmy_6qM">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-01-25T07:40:45.261Z" agent="5.0 (X11)" etag="7JH0ARc_A-lIKCewQBH-" version="14.2.7" type="github">
+  <diagram id="dWmSh3rdpuQd5Bmy_6qM" name="Battery">
+    <mxGraphModel dx="1355" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ngI0QvtfoVeiI_Z32Cki-7" value="BatteryService" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="140" width="330" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="ngI0QvtfoVeiI_Z32Cki-8" value="+ field: HealthHalCallback" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ngI0QvtfoVeiI_Z32Cki-7">
+          <mxGeometry y="26" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ngI0QvtfoVeiI_Z32Cki-9" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="ngI0QvtfoVeiI_Z32Cki-7">
+          <mxGeometry y="52" width="330" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="ngI0QvtfoVeiI_Z32Cki-10" value="+ HealthHalCallback.healthInfoChanged_2_1()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ngI0QvtfoVeiI_Z32Cki-7">
+          <mxGeometry y="60" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ngI0QvtfoVeiI_Z32Cki-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ngI0QvtfoVeiI_Z32Cki-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="95" y="710" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="95" y="530" />
+              <mxPoint x="95" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ngI0QvtfoVeiI_Z32Cki-15" value="BatteryService" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="320" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ngI0QvtfoVeiI_Z32Cki-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ngI0QvtfoVeiI_Z32Cki-28" target="ngI0QvtfoVeiI_Z32Cki-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="285" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ngI0QvtfoVeiI_Z32Cki-16" value="BatteryService" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="320" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ngI0QvtfoVeiI_Z32Cki-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ngI0QvtfoVeiI_Z32Cki-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="625" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ngI0QvtfoVeiI_Z32Cki-17" value="BatteryStatsImpl" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="320" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ngI0QvtfoVeiI_Z32Cki-21" value="1 healthInfoChanged_2_1" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="100" y="410" as="sourcePoint" />
+            <mxPoint x="280" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ngI0QvtfoVeiI_Z32Cki-23" value="" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
+          <mxGeometry y="10" width="80" relative="1" as="geometry">
+            <mxPoint x="290" y="620" as="sourcePoint" />
+            <mxPoint x="480" y="620" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ngI0QvtfoVeiI_Z32Cki-32" value="setBatteryState" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ngI0QvtfoVeiI_Z32Cki-23">
+          <mxGeometry x="0.1263" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ngI0QvtfoVeiI_Z32Cki-34" value="2.2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ngI0QvtfoVeiI_Z32Cki-23">
+          <mxGeometry x="-0.4737" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ngI0QvtfoVeiI_Z32Cki-25" value="BatteryStatsService" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="320" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ngI0QvtfoVeiI_Z32Cki-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="725" as="targetPoint" />
+            <mxPoint x="480" y="375" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ngI0QvtfoVeiI_Z32Cki-28" value="2 .1sendBatteryChangedIntentLocked" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="280" y="440" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ngI0QvtfoVeiI_Z32Cki-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ngI0QvtfoVeiI_Z32Cki-16" target="ngI0QvtfoVeiI_Z32Cki-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="285" y="710" as="targetPoint" />
+            <mxPoint x="285" y="370" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ngI0QvtfoVeiI_Z32Cki-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ngI0QvtfoVeiI_Z32Cki-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="285" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ngI0QvtfoVeiI_Z32Cki-30" value="2.1.1ACTION_BATTERY_CHANGED" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="280" y="540" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ngI0QvtfoVeiI_Z32Cki-33" value="2.2.1 setBatteryStateLocked" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="490" y="660" as="sourcePoint" />
+            <mxPoint x="620" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
