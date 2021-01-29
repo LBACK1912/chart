@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-28T03:39:29.379Z" agent="5.0 (X11)" etag="EKyMeoL5sCeWrbZQghjQ" version="14.2.7" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-01-29T08:22:04.586Z" agent="5.0 (X11)" etag="4_hH5zvqK2RWu7YWfIZa" version="14.2.7" type="github" pages="4">
   <diagram id="dWmSh3rdpuQd5Bmy_6qM" name="Battery">
     <mxGraphModel dx="1355" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -117,6 +117,20 @@
       </root>
     </mxGraphModel>
   </diagram>
+  <diagram id="dbudCYh0gp04aXYM0iuG" name="Authentication">
+    <mxGraphModel dx="1355" dy="1864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="xhEgfkJSY4XmHLy5GlEz-0" />
+        <mxCell id="xhEgfkJSY4XmHLy5GlEz-1" parent="xhEgfkJSY4XmHLy5GlEz-0" />
+        <mxCell id="xhEgfkJSY4XmHLy5GlEz-2" value="&lt;div style=&quot;font-size: 18px&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;//LockScreen 相关类&lt;br&gt;frameworks/base/packages/SystemUI/src/com/android/systemui/keyguard/KeyguardViewMediator.java&lt;br&gt;frameworks/base/packages/SystemUI/src/com/android/keyguard/KeyguardDisplayManager.java&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 18px&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;//PIN/Password/Pattern算法相关&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 18px&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;frameworks/base/core/java/com/android/internal/widget/LockscreenCredential.java&lt;br&gt;frameworks/base/core/java/com/android/internal/widget/LockPatternUtils.java&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 18px&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 18px&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;//AF service&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 18px&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;frameworks/base/services/core/java/com/android/server/locksettings/LockSettingsService.java&lt;br&gt;frameworks/base/core/java/android/app/KeyguardManager.java&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="xhEgfkJSY4XmHLy5GlEz-1">
+          <mxGeometry x="80" y="-980" width="890" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="kkE4j9P05t1ZHCbmS5Md-0" value="&lt;div style=&quot;font-size: 18px&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;//FingerPrint AF相关类&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="xhEgfkJSY4XmHLy5GlEz-1">
+          <mxGeometry x="80" y="-740" width="200" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram id="piHVyv8FsJyHad7Njno3" name="dumpsys">
     <mxGraphModel dx="1355" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -129,10 +143,19 @@
           <mxGeometry x="40" y="100" width="390" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sLeQUv31aCO_AFq-B6c3-5" value="&lt;div style=&quot;font-size: 18px&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;//查看当前可视window&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 18px&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;adb shell dumpsys window visible|grep -E &quot;Window #&quot;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="sLeQUv31aCO_AFq-B6c3-1" vertex="1">
-          <mxGeometry x="40" y="190" width="470" height="30" as="geometry" />
+          <mxGeometry x="40" y="160" width="470" height="30" as="geometry" />
         </mxCell>
         <mxCell id="rPvPpCWT4hSwsu7bNfj4-0" value="&lt;div style=&quot;font-size: 18px&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;//查看View Hierarchy &lt;/font&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;搜索对应Activity的View Hierarchy&lt;/font&gt;&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;adb shell dumpsys activity all &amp;gt; allactivity&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="sLeQUv31aCO_AFq-B6c3-1" vertex="1">
-          <mxGeometry x="40" y="270" width="470" height="30" as="geometry" />
+          <mxGeometry x="30" y="230" width="470" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8ZRjGiyTZU-SQLU7okNA-0" value="&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;//查看实时所有进程活动信息（包括cpu，mem等）&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;adb shell top&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;//查看所有进程内存信息(-help)&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;adb shell procrank &lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;//查看进程内部活动信息&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;adb shell dumpsys procstats --current -a [package name] &amp;gt;procstate&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="sLeQUv31aCO_AFq-B6c3-1">
+          <mxGeometry x="40" y="325" width="580" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="8ZRjGiyTZU-SQLU7okNA-1" value="&lt;div style=&quot;font-size: 18px&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;//查看处理器数量&lt;br&gt;adb shell nproc&lt;br&gt;&amp;nbsp;&lt;br&gt;//查看进程内部信息 (-h)&lt;br&gt;adb shell dumpsys procstats （包含类信息）&lt;br&gt;adb shell dumpsys meminfo &amp;lt;package_name&amp;gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="sLeQUv31aCO_AFq-B6c3-1">
+          <mxGeometry x="40" y="560" width="400" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="8ZRjGiyTZU-SQLU7okNA-2" value="&lt;div style=&quot;font-size: 18px&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;//基本概念&lt;br&gt;RSS 实际内存（私有内存+不均分的共享内存大小）&lt;br&gt;PSS 私有内存+均分的共享内存大小&lt;br&gt;USS 私有内存大小&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="sLeQUv31aCO_AFq-B6c3-1">
+          <mxGeometry x="40" y="720" width="420" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -148,22 +171,22 @@
         <mxCell id="kox5aCtFWYV0ImPzg3bZ-3" value="&lt;font style=&quot;font-size: 20px&quot;&gt;常用logs 关键字&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="kox5aCtFWYV0ImPzg3bZ-1" vertex="1">
           <mxGeometry x="-835" y="20" width="160" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="EVZLts7rLx2IbH_Xx5lV-0" value="&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;//查看进程创建&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;Zygote&amp;nbsp; : Forked child process [pid]&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="kox5aCtFWYV0ImPzg3bZ-1">
+        <mxCell id="EVZLts7rLx2IbH_Xx5lV-0" value="&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;//查看进程创建&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;Zygote&amp;nbsp; : Forked child process [pid]&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="kox5aCtFWYV0ImPzg3bZ-1" vertex="1">
           <mxGeometry x="-800" y="140" width="300" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="EVZLts7rLx2IbH_Xx5lV-1" value="&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;//查看堆栈e.printStackTrace()&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;System.err&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="kox5aCtFWYV0ImPzg3bZ-1">
+        <mxCell id="EVZLts7rLx2IbH_Xx5lV-1" value="&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;//查看堆栈e.printStackTrace()&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;System.err&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="kox5aCtFWYV0ImPzg3bZ-1" vertex="1">
           <mxGeometry x="-800" y="220" width="260" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="EVZLts7rLx2IbH_Xx5lV-2" value="&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;//查看音频播放状态（一般情况，一个段音频用一个数字标识一个AudioTrack）&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;AudioTrack&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;AudioTrack: createTrack_l&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;//查看音频焦点获取释放（音频焦点只是一个状态变更通知，无法强制限定）&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;MediaFocusControl &lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="kox5aCtFWYV0ImPzg3bZ-1">
+        <mxCell id="EVZLts7rLx2IbH_Xx5lV-2" value="&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;//查看音频播放状态（一般情况，一个段音频用一个数字标识一个AudioTrack）&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;AudioTrack&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;AudioTrack: createTrack_l&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;//查看音频焦点获取释放（音频焦点只是一个状态变更通知，无法强制限定）&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;MediaFocusControl &lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="kox5aCtFWYV0ImPzg3bZ-1" vertex="1">
           <mxGeometry x="-800" y="305" width="640" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="EVZLts7rLx2IbH_Xx5lV-3" value="&lt;div style=&quot;font-size: 18px&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;//电源键灭屏&lt;br&gt;SurfaceFlinger: Setting power mode 0&lt;br&gt;//电源键亮屏&lt;br&gt;SurfaceFlinger: Setting power mode 2&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="kox5aCtFWYV0ImPzg3bZ-1">
+        <mxCell id="EVZLts7rLx2IbH_Xx5lV-3" value="&lt;div style=&quot;font-size: 18px&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;//电源键灭屏&lt;br&gt;SurfaceFlinger: Setting power mode 0&lt;br&gt;//电源键亮屏&lt;br&gt;SurfaceFlinger: Setting power mode 2&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="kox5aCtFWYV0ImPzg3bZ-1" vertex="1">
           <mxGeometry x="-800" y="470" width="330" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EVZLts7rLx2IbH_Xx5lV-4" value="&lt;div style=&quot;font-size: 18px&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;//查看view接收到的事件&lt;br&gt;ViewRootImpl[viewname]: enqueueInputEvent&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="kox5aCtFWYV0ImPzg3bZ-1">
+        <mxCell id="EVZLts7rLx2IbH_Xx5lV-4" value="&lt;div style=&quot;font-size: 18px&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;//查看view接收到的事件&lt;br&gt;ViewRootImpl[viewname]: enqueueInputEvent&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="kox5aCtFWYV0ImPzg3bZ-1" vertex="1">
           <mxGeometry x="-800" y="580" width="410" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EVZLts7rLx2IbH_Xx5lV-5" value="&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;//查看telephony状态&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;Telephony: onStateChanged&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="kox5aCtFWYV0ImPzg3bZ-1">
+        <mxCell id="EVZLts7rLx2IbH_Xx5lV-5" value="&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;//查看telephony状态&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;Telephony: onStateChanged&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="kox5aCtFWYV0ImPzg3bZ-1" vertex="1">
           <mxGeometry x="-800" y="650" width="250" height="40" as="geometry" />
         </mxCell>
       </root>
