@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-07T07:20:12.622Z" agent="5.0 (X11)" etag="nb2QEaNKeU3ExngtLpUq" version="14.2.9" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-02-07T07:21:30.275Z" agent="5.0 (X11)" etag="0eCuEOWIDr82ieUY1CSS" version="14.2.9" type="github" pages="8">
   <diagram id="dWmSh3rdpuQd5Bmy_6qM" name="Battery">
     <mxGraphModel dx="1355" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -244,7 +244,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="k-BNsQJe2om3FxdPlYtH" name="Linux cmd">
-    <mxGraphModel dx="1355" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" page="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="xNqpam658137_JDUehW7-0" />
         <mxCell id="xNqpam658137_JDUehW7-1" parent="xNqpam658137_JDUehW7-0" />
