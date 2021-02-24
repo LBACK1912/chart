@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-24T09:14:13.515Z" agent="5.0 (X11)" etag="7r8for__7ZIFQDBkC0Ju" version="14.4.2" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2021-02-24T09:14:26.072Z" agent="5.0 (X11)" etag="tmMa_0VSBsWw4iaIs_Da" version="14.4.2" type="github" pages="9">
   <diagram id="dWmSh3rdpuQd5Bmy_6qM" name="Battery">
     <mxGraphModel dx="1355" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -205,7 +205,7 @@
           <mxGeometry x="40" y="150" width="470" height="50" as="geometry" />
         </mxCell>
         <mxCell id="rPvPpCWT4hSwsu7bNfj4-0" value="&lt;div style=&quot;font-size: 18px&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;//查看View Hierarchy &lt;/font&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;搜索对应Activity的View Hierarchy&lt;/font&gt;&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;adb shell dumpsys activity all &amp;gt; allactivity&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="sLeQUv31aCO_AFq-B6c3-1" vertex="1">
-          <mxGeometry x="30" y="230" width="470" height="30" as="geometry" />
+          <mxGeometry x="40" y="230" width="470" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8ZRjGiyTZU-SQLU7okNA-0" value="&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;//查看实时所有进程活动信息（包括cpu，mem等）&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;adb shell top&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;//查看所有进程内存信息(-help)&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;adb shell procrank &lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;//查看进程内部活动信息&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;adb shell dumpsys procstats --current -a [package name] &amp;gt;procstate&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="sLeQUv31aCO_AFq-B6c3-1" vertex="1">
           <mxGeometry x="40" y="325" width="580" height="150" as="geometry" />
