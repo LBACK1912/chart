@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-24T02:35:06.730Z" agent="5.0 (X11)" etag="pbiFOaj9n-oO9kFyNbev" version="14.2.9" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2021-02-24T02:35:33.160Z" agent="5.0 (X11)" etag="ie2_R8XW9UVap37K-X4O" version="14.2.9" type="github" pages="9">
   <diagram id="dWmSh3rdpuQd5Bmy_6qM" name="Battery">
     <mxGraphModel dx="1355" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -150,8 +150,8 @@
         <mxCell id="OCFM-5DnaQwEvEhgHRMH-3" value="&lt;div style=&quot;font-size: 16px&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;Permission level&lt;/font&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;：nomal/signature/dangerous/signature|system&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="OCFM-5DnaQwEvEhgHRMH-1">
           <mxGeometry x="80" y="220" width="500" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="mAM0aCzxNxP5_SiWQ3bv-0" value="Security check" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="OCFM-5DnaQwEvEhgHRMH-1">
-          <mxGeometry x="70" y="40" width="100" height="20" as="geometry" />
+        <mxCell id="mAM0aCzxNxP5_SiWQ3bv-0" value="&lt;font style=&quot;font-size: 16px&quot;&gt;Security check&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="OCFM-5DnaQwEvEhgHRMH-1">
+          <mxGeometry x="60" y="40" width="120" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
