@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-24T07:36:40.690Z" agent="5.0 (X11)" etag="ChFizOUU8l_cwdCzBWBy" version="14.2.9" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2021-02-24T07:49:36.896Z" agent="5.0 (X11)" etag="ZaAgrGTR-cgQ7c-4NHTW" version="14.2.9" type="github" pages="9">
   <diagram id="dWmSh3rdpuQd5Bmy_6qM" name="Battery">
     <mxGraphModel dx="1355" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -295,8 +295,8 @@
         <mxCell id="biXCgR58b82i6S-F19YV-5" value="&lt;div style=&quot;font-size: 16px&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;//启动studio&lt;br&gt;sudo bash studio.sh&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="xNqpam658137_JDUehW7-1" vertex="1">
           <mxGeometry x="40" y="840" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="biXCgR58b82i6S-F19YV-6" value="&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;//查看文件系统大小&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;&amp;nbsp;df&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="xNqpam658137_JDUehW7-1" vertex="1">
-          <mxGeometry x="40" y="920" width="160" height="40" as="geometry" />
+        <mxCell id="biXCgR58b82i6S-F19YV-6" value="&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;//查看文件系统及大小&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;&amp;nbsp;df&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;//android partition 指的是挂载点&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="xNqpam658137_JDUehW7-1" vertex="1">
+          <mxGeometry x="40" y="915" width="250" height="50" as="geometry" />
         </mxCell>
         <mxCell id="biXCgR58b82i6S-F19YV-7" value="&lt;div style=&quot;font-size: 16px&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;//编译selinux&lt;br&gt;make selinux_policy&lt;br&gt;adb push system/system_ext/etc/selinux /system/system_ext/etc/&lt;br&gt;adb push system/etc/selinux /system/etc/&lt;br&gt;adb push product/etc/selinux /product/etc/&lt;br&gt;adb push vendor/etc/selinux /vendor/etc/&lt;br&gt;&lt;br&gt;adb push out/target/product/sm35/system/system_ext/etc/selinux&amp;nbsp;&amp;nbsp; /system/system_ext/etc/&lt;br&gt;adb push out/target/product/sm35/system/etc/selinux &amp;nbsp; /system/etc/&lt;br&gt;adb push out/target/product/sm35/product/etc/selinux&amp;nbsp;&amp;nbsp; /product/etc/&lt;br&gt;adb push out/target/product/sm35/vendor/etc/selinux&amp;nbsp;&amp;nbsp; /vendor/etc/&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="xNqpam658137_JDUehW7-1" vertex="1">
           <mxGeometry x="40" y="1030" width="710" height="160" as="geometry" />
