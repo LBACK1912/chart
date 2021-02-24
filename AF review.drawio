@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-24T09:17:10.649Z" agent="5.0 (X11)" etag="mFzWB82WBWc8-zpPVxT8" version="14.4.2" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2021-02-24T09:19:58.832Z" agent="5.0 (X11)" etag="qeEcetXlgzco9FlF1ckN" version="14.4.2" type="github" pages="10">
   <diagram id="dWmSh3rdpuQd5Bmy_6qM" name="Battery">
     <mxGraphModel dx="1355" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -351,6 +351,17 @@
         </mxCell>
         <mxCell id="fdhWRxxSZmjxRtJQLvcw-10" value="&lt;div style=&quot;font-size: 16px&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;//sensor&lt;br&gt;adb shell&lt;br&gt;sns_hal_batch -s 65562 -d 1000 &lt;br&gt;sns_hal_batch&lt;br&gt;sns_hal_batch sensors list&lt;br&gt;adb shell dumpsys sensorservice&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;//查看处理器数量&lt;br&gt;adb shell nproc&lt;br&gt;&lt;br&gt;//查看所有进程内存信息(-help)&lt;br&gt;adb shell procrank &lt;br&gt;&lt;br&gt;//查看进程内部信息 (-h)&lt;br&gt;adb shell dumpsys procstats （包含类信息）&lt;br&gt;adb shell dumpsys meminfo &amp;lt;package_name&amp;gt;&lt;br&gt;&lt;br&gt;//基本概念&lt;br&gt;RSS 实际内存（私有内存+不均分的共享内存大小）&lt;br&gt;PSS 私有内存+均分的共享内存大小&lt;br&gt;USS 私有内存大小&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="xNqpam658137_JDUehW7-1" vertex="1">
           <mxGeometry x="40" y="3210" width="380" height="310" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="tTltKocxqI14ZUsSoQeR" name="SystemUI">
+    <mxGraphModel dx="2205" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="xtKd_d_366bWNMvGZC8t-0" />
+        <mxCell id="xtKd_d_366bWNMvGZC8t-1" parent="xtKd_d_366bWNMvGZC8t-0" />
+        <mxCell id="xtKd_d_366bWNMvGZC8t-2" value="&lt;div style=&quot;font-size: 16px&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;//systemui&lt;br&gt;com.android.systemui.statusbar.phone.StatusBarWindowController&lt;br&gt;com.android.systemui.statusbar.phone.StatusBar&lt;br&gt;com.android.systemui.statusbar.CommandQueue&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="xtKd_d_366bWNMvGZC8t-1">
+          <mxGeometry x="-800" y="60" width="520" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
