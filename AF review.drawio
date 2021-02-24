@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-24T06:21:48.307Z" agent="5.0 (X11)" etag="hWuMfPcGBrf9VGst7ptG" version="14.2.9" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2021-02-24T07:01:24.627Z" agent="5.0 (X11)" etag="m0eQ0fv8ita5AoWco0jH" version="14.2.9" type="github" pages="9">
   <diagram id="dWmSh3rdpuQd5Bmy_6qM" name="Battery">
     <mxGraphModel dx="1355" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -156,8 +156,8 @@
         <mxCell id="Bush4YkELKngfcAa-jA6-0" value="&lt;font style=&quot;font-size: 16px&quot;&gt;1 检查是否定义了permission，且是否符合命名规范,permission level 是？&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="OCFM-5DnaQwEvEhgHRMH-1">
           <mxGeometry x="30" y="70" width="540" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="5ySQYbtjkiRUnFfHibi2-0" value="&lt;div style=&quot;font-size: 16px&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;3 通过CTS检查&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;System和vendor分区的应用间不能相互读写数据&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;通过在rc文件中用shell读写，绕开检查&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="OCFM-5DnaQwEvEhgHRMH-1">
-          <mxGeometry x="40" y="310" width="360" height="60" as="geometry" />
+        <mxCell id="5ySQYbtjkiRUnFfHibi2-0" value="&lt;div style=&quot;font-size: 16px&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;3 通过CTS检查&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px&quot; align=&quot;left&quot;&gt;&lt;code dir=&quot;ltr&quot;&gt;data_between_core_and_vendor_violators&lt;/code&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;通过在rc文件(存放在/system/etc/init/)中用shell读写&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="OCFM-5DnaQwEvEhgHRMH-1">
+          <mxGeometry x="40" y="310" width="390" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
