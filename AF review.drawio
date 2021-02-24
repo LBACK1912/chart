@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-24T07:01:24.627Z" agent="5.0 (X11)" etag="m0eQ0fv8ita5AoWco0jH" version="14.2.9" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2021-02-24T07:35:31.400Z" agent="5.0 (X11)" etag="TMu5jtfsbT2HRz_FPUTF" version="14.2.9" type="github" pages="9">
   <diagram id="dWmSh3rdpuQd5Bmy_6qM" name="Battery">
     <mxGraphModel dx="1355" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -184,6 +184,9 @@
         <mxCell id="77f5c0jMlIz9ybekA52T-1" value="&lt;div style=&quot;font-size: 16px&quot; align=&quot;left&quot;&gt;//somc_config.xml&lt;br&gt;&amp;nbsp;/r-huaihe-sm35-dev/device/somc/sm35/runtime-overlay/&lt;br&gt;&amp;nbsp;/r-huaihe-sm35-dev/device/somc/sm35/runtime-overlay/packages/apps/Settings/res/values/somc_config.xml&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="9AkWh93jWhHi97b5dYz4-1" vertex="1">
           <mxGeometry x="40" y="130" width="840" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="F2oREz9El1E90bZE4bvv-0" value="&lt;div style=&quot;font-size: 16px&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;//so的集成方式&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;第三方app通过gradle自动集成在apk的lib中&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;platform签名app通过mk配置集成到system/app/packageName/lib下&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;有一种特殊情况，so与app（必须是platform签名）分离。必须在/system/etc下新建文件如public.libraries-hq.txt（系统规范要求）并在其中申明so，&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;app中通过so名字如libem_sensor_huaqin_jni.hq.so（名字后缀与txt文件后缀相同）加载&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="9AkWh93jWhHi97b5dYz4-1">
+          <mxGeometry x="40" y="235" width="1080" height="100" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -251,16 +254,16 @@
         <mxCell id="2GTklPsF8EbJ_k65BDdn-0" value="&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;&amp;nbsp; LOG_TAG &quot;nativeloader&quot;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="kox5aCtFWYV0ImPzg3bZ-1" vertex="1">
           <mxGeometry x="-805" y="1200" width="210" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="3x_dVRu9A8isu9MNBsgp-0" value="&lt;div style=&quot;font-size: 16px&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;//settings关键字&lt;br&gt;SettingsActivity: Switching to fragment&lt;br&gt;SubSettings: Launching fragment&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="kox5aCtFWYV0ImPzg3bZ-1">
+        <mxCell id="3x_dVRu9A8isu9MNBsgp-0" value="&lt;div style=&quot;font-size: 16px&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;//settings关键字&lt;br&gt;SettingsActivity: Switching to fragment&lt;br&gt;SubSettings: Launching fragment&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="kox5aCtFWYV0ImPzg3bZ-1" vertex="1">
           <mxGeometry x="-800" y="930" width="300" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Ce1bSU0xgTbYiZO2owfw-0" value="&lt;div style=&quot;font-size: 16px&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;//event log, app 内存信息&lt;br&gt;am_pss&amp;nbsp; : [24828,10271,com.google.android.permissioncontroller,36163584,31739904,141312,167776256,0,2,11]&lt;br&gt;30047 am_pss (Pid|1|5),(UID|1|5),(Process Name|3),(Pss|2|2),(Uss|2|2),(SwapPss|2|2),(Rss|2|2),(StatType|1|5),(ProcState|1|5),(TimeToCollect|2|2)&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="kox5aCtFWYV0ImPzg3bZ-1">
+        <mxCell id="Ce1bSU0xgTbYiZO2owfw-0" value="&lt;div style=&quot;font-size: 16px&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;//event log, app 内存信息&lt;br&gt;am_pss&amp;nbsp; : [24828,10271,com.google.android.permissioncontroller,36163584,31739904,141312,167776256,0,2,11]&lt;br&gt;30047 am_pss (Pid|1|5),(UID|1|5),(Process Name|3),(Pss|2|2),(Uss|2|2),(SwapPss|2|2),(Rss|2|2),(StatType|1|5),(ProcState|1|5),(TimeToCollect|2|2)&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="kox5aCtFWYV0ImPzg3bZ-1" vertex="1">
           <mxGeometry x="-800" y="1010" width="1070" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Ce1bSU0xgTbYiZO2owfw-1" value="&lt;div style=&quot;font-size: 16px&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;//异常printstacktrace&lt;br&gt;System.err&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="kox5aCtFWYV0ImPzg3bZ-1">
+        <mxCell id="Ce1bSU0xgTbYiZO2owfw-1" value="&lt;div style=&quot;font-size: 16px&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;//异常printstacktrace&lt;br&gt;System.err&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="kox5aCtFWYV0ImPzg3bZ-1" vertex="1">
           <mxGeometry x="-805" y="1100" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fnwfqAmqvroiGC4YgsUO-0" value="&lt;div style=&quot;font-size: 16px&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;//开机启动不了&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;aborting&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="kox5aCtFWYV0ImPzg3bZ-1">
+        <mxCell id="fnwfqAmqvroiGC4YgsUO-0" value="&lt;div style=&quot;font-size: 16px&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;//开机启动不了&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;aborting&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="kox5aCtFWYV0ImPzg3bZ-1" vertex="1">
           <mxGeometry x="-800" y="1160" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
