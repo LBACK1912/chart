@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-24T02:53:42.543Z" agent="5.0 (X11)" etag="6gmTLw70T6sR-CHSuaae" version="14.2.9" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2021-02-24T02:56:00.128Z" agent="5.0 (X11)" etag="5WGSsedKUMVoLNI4IzsW" version="14.2.9" type="github" pages="10">
   <diagram id="dWmSh3rdpuQd5Bmy_6qM" name="Battery">
     <mxGraphModel dx="1355" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -139,7 +139,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="m5_uMa0zPTYCEjhHHi1t" name="Permission">
+  <diagram id="m5_uMa0zPTYCEjhHHi1t" name="Security check">
     <mxGraphModel dx="1355" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="OCFM-5DnaQwEvEhgHRMH-0" />
@@ -148,7 +148,7 @@
           <mxGeometry x="30" y="130" width="710" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OCFM-5DnaQwEvEhgHRMH-3" value="&lt;div style=&quot;font-size: 16px&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;Permission level&lt;/font&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;：nomal/signature/dangerous/signature|system&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="OCFM-5DnaQwEvEhgHRMH-1">
-          <mxGeometry x="60" y="250" width="500" height="20" as="geometry" />
+          <mxGeometry x="40" y="250" width="500" height="20" as="geometry" />
         </mxCell>
         <mxCell id="mAM0aCzxNxP5_SiWQ3bv-0" value="&lt;div style=&quot;font-size: 16px&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;Security check&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="OCFM-5DnaQwEvEhgHRMH-1">
           <mxGeometry x="30" y="30" width="120" height="50" as="geometry" />
