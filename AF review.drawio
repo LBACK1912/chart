@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-25T07:52:00.151Z" agent="5.0 (X11)" etag="Em-WTnffXkVJzxBVk0YC" version="14.4.2" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2021-02-25T07:59:13.678Z" agent="5.0 (X11)" etag="zqt5O4Z0dcFuHq2dQLMz" version="14.4.2" type="github" pages="10">
   <diagram id="dWmSh3rdpuQd5Bmy_6qM" name="Battery">
     <mxGraphModel dx="1355" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -194,7 +194,7 @@
           <mxGeometry x="-800" y="680" width="780" height="50" as="geometry" />
         </mxCell>
         <mxCell id="G_CAWCPrXIERh8ykIWyV-1" value=":NotificationManagerService" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;align=left;" vertex="1" parent="xtKd_d_366bWNMvGZC8t-1">
-          <mxGeometry x="-800" y="760" width="170" height="295" as="geometry" />
+          <mxGeometry x="-620" y="760" width="170" height="295" as="geometry" />
         </mxCell>
         <mxCell id="G_CAWCPrXIERh8ykIWyV-16" value="1 registerListener:INotificationListener" style="html=1;verticalAlign=bottom;startArrow=circle;startFill=1;endArrow=open;startSize=6;endSize=8;" edge="1" parent="G_CAWCPrXIERh8ykIWyV-1" target="G_CAWCPrXIERh8ykIWyV-2">
           <mxGeometry width="80" relative="1" as="geometry">
@@ -203,10 +203,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="G_CAWCPrXIERh8ykIWyV-2" value=":INotificationManager" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;align=left;" vertex="1" parent="xtKd_d_366bWNMvGZC8t-1">
-          <mxGeometry x="-600" y="760" width="130" height="310" as="geometry" />
+          <mxGeometry x="-420" y="760" width="130" height="310" as="geometry" />
         </mxCell>
         <mxCell id="G_CAWCPrXIERh8ykIWyV-7" value=":NotificationListeners" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;align=left;" vertex="1" parent="xtKd_d_366bWNMvGZC8t-1">
-          <mxGeometry x="-390" y="760" width="130" height="300" as="geometry" />
+          <mxGeometry x="-210" y="760" width="130" height="300" as="geometry" />
         </mxCell>
         <mxCell id="G_CAWCPrXIERh8ykIWyV-12" value="registerSystemService" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="xtKd_d_366bWNMvGZC8t-1" source="G_CAWCPrXIERh8ykIWyV-2" target="G_CAWCPrXIERh8ykIWyV-7">
           <mxGeometry x="-0.1198" y="10" width="80" relative="1" as="geometry">
@@ -228,6 +228,26 @@
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="-540" y="960" as="sourcePoint" />
             <mxPoint x="-460" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0SZu1tLk2WVEWHn-CI-g-1" value=":SystemServer" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="xtKd_d_366bWNMvGZC8t-1">
+          <mxGeometry x="-770" y="765" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="0SZu1tLk2WVEWHn-CI-g-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="0SZu1tLk2WVEWHn-CI-g-1">
+          <mxGeometry x="45" y="60" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0SZu1tLk2WVEWHn-CI-g-3" value="1 addService" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="0SZu1tLk2WVEWHn-CI-g-1" target="0SZu1tLk2WVEWHn-CI-g-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="110" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="75" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0SZu1tLk2WVEWHn-CI-g-4" value="publishBinderService:NOTIFICATION_SERVICE" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="xtKd_d_366bWNMvGZC8t-1" source="G_CAWCPrXIERh8ykIWyV-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-640" y="1000" as="sourcePoint" />
+            <mxPoint x="-720" y="1000" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
