@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-25T03:31:03.814Z" agent="5.0 (X11)" etag="XY4rrVFzvHCtLG0qh7-i" version="14.4.2" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2021-02-25T07:41:40.754Z" agent="5.0 (X11)" etag="8zDCzsIsl_bSjtKrUUCp" version="14.4.2" type="github" pages="10">
   <diagram id="dWmSh3rdpuQd5Bmy_6qM" name="Battery">
     <mxGraphModel dx="1355" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -189,6 +189,40 @@
         </mxCell>
         <mxCell id="UIAOZyDH0m4HPNryX_zt-15" value="&lt;div&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;//basic&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;frameworks/base/services/java/com/android/server/SystemServer.java&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;frameworks/base/services/core/java/com/android/server/statusbar/StatusBarManagerService.java&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;frameworks/base/core/java/com/android/internal/statusbar/IStatusBar.aidl&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="xtKd_d_366bWNMvGZC8t-1">
           <mxGeometry x="-800" y="35" width="750" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="G_CAWCPrXIERh8ykIWyV-0" value="&lt;div style=&quot;font-size: 16px&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;//Notifaction&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;frameworks/base/services/core/java/com/android/server/notification/NotificationManagerService.java&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;frameworks/base/core/java/android/app/INotificationManager.aidl&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="xtKd_d_366bWNMvGZC8t-1">
+          <mxGeometry x="-800" y="680" width="780" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="G_CAWCPrXIERh8ykIWyV-1" value=":NotificationManagerService" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;align=left;" vertex="1" parent="xtKd_d_366bWNMvGZC8t-1">
+          <mxGeometry x="-800" y="760" width="170" height="295" as="geometry" />
+        </mxCell>
+        <mxCell id="G_CAWCPrXIERh8ykIWyV-16" value="1 registerListener:INotificationListener" style="html=1;verticalAlign=bottom;startArrow=circle;startFill=1;endArrow=open;startSize=6;endSize=8;" edge="1" parent="G_CAWCPrXIERh8ykIWyV-1" target="G_CAWCPrXIERh8ykIWyV-2">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint y="130" as="sourcePoint" />
+            <mxPoint x="190" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G_CAWCPrXIERh8ykIWyV-2" value=":INotificationManager" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;align=left;" vertex="1" parent="xtKd_d_366bWNMvGZC8t-1">
+          <mxGeometry x="-600" y="760" width="130" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="G_CAWCPrXIERh8ykIWyV-7" value=":NotificationListeners" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;align=left;" vertex="1" parent="xtKd_d_366bWNMvGZC8t-1">
+          <mxGeometry x="-390" y="760" width="130" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="G_CAWCPrXIERh8ykIWyV-12" value="registerSystemService" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="xtKd_d_366bWNMvGZC8t-1" source="G_CAWCPrXIERh8ykIWyV-2" target="G_CAWCPrXIERh8ykIWyV-7">
+          <mxGeometry x="-0.1198" y="10" width="80" relative="1" as="geometry">
+            <mxPoint x="-520" y="900" as="sourcePoint" />
+            <mxPoint x="-450" y="900" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-470" y="910" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G_CAWCPrXIERh8ykIWyV-18" value="2 enqueueNotificationWithTag" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;" edge="1" parent="xtKd_d_366bWNMvGZC8t-1" target="G_CAWCPrXIERh8ykIWyV-2">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="-790" y="930" as="sourcePoint" />
+            <mxPoint x="-710" y="930" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
