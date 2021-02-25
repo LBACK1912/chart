@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-25T07:41:40.754Z" agent="5.0 (X11)" etag="8zDCzsIsl_bSjtKrUUCp" version="14.4.2" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2021-02-25T07:48:35.521Z" agent="5.0 (X11)" etag="B8mvdkoehqhCLPOMgFwx" version="14.4.2" type="github" pages="10">
   <diagram id="dWmSh3rdpuQd5Bmy_6qM" name="Battery">
     <mxGraphModel dx="1355" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -222,6 +222,12 @@
           <mxGeometry width="60" relative="1" as="geometry">
             <mxPoint x="-790" y="930" as="sourcePoint" />
             <mxPoint x="-710" y="930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G_CAWCPrXIERh8ykIWyV-19" value="notifyPostedLocked" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="xtKd_d_366bWNMvGZC8t-1" target="G_CAWCPrXIERh8ykIWyV-7">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-540" y="960" as="sourcePoint" />
+            <mxPoint x="-460" y="960" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
