@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-25T08:44:21.373Z" agent="5.0 (X11)" etag="LsCBMQkfB8Xt5IqZSXfS" version="14.4.2" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2021-02-25T08:44:49.554Z" agent="5.0 (X11)" etag="4_zVbmkuUirQwO2PgjhL" version="14.4.2" type="github" pages="10">
   <diagram id="dWmSh3rdpuQd5Bmy_6qM" name="Battery">
     <mxGraphModel dx="1355" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -171,7 +171,7 @@
         <mxCell id="0SZu1tLk2WVEWHn-CI-g-28" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;align=left;" vertex="1" parent="G_CAWCPrXIERh8ykIWyV-1">
           <mxGeometry x="80" y="105" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="0SZu1tLk2WVEWHn-CI-g-29" value="1.1publishBinderService:NOTIFICATION_SERVICE,INotificationManager" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="0SZu1tLk2WVEWHn-CI-g-28" parent="G_CAWCPrXIERh8ykIWyV-1">
+        <mxCell id="0SZu1tLk2WVEWHn-CI-g-29" value="1.1publishBinderService:INotificationManager" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="0SZu1tLk2WVEWHn-CI-g-28" parent="G_CAWCPrXIERh8ykIWyV-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="85" y="35" as="sourcePoint" />
             <Array as="points">
