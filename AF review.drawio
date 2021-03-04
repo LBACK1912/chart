@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-04T09:44:30.847Z" agent="5.0 (X11)" etag="M8apl-xpnV0kXBL8DucX" version="14.4.2" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2021-03-04T10:04:17.534Z" agent="5.0 (X11)" etag="dhbKknTIHeaJBC9QHOhr" version="14.4.2" type="github" pages="11">
   <diagram id="dWmSh3rdpuQd5Bmy_6qM" name="Battery">
     <mxGraphModel dx="1355" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -567,8 +567,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZuSfluq8Mz6mo271DPit-20" value="&lt;div style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;frameworks/base/core/jni/android_hardware_SensorManager.cpp&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;frameworks/native/libs/sensor/SensorManager.cpp &lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="ZuSfluq8Mz6mo271DPit-1">
-          <mxGeometry y="25" width="510" height="50" as="geometry" />
+        <mxCell id="ZuSfluq8Mz6mo271DPit-20" value="&lt;div style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;frameworks/base/core/jni/android_hardware_SensorManager.cpp&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;frameworks/native/libs/sensor/SensorManager.cpp &lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;frameworks/native/libs/sensor/ISensorServer.cpp&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="ZuSfluq8Mz6mo271DPit-1">
+          <mxGeometry y="20" width="510" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZuSfluq8Mz6mo271DPit-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ZuSfluq8Mz6mo271DPit-1" source="ZuSfluq8Mz6mo271DPit-21" target="ZuSfluq8Mz6mo271DPit-22">
           <mxGeometry relative="1" as="geometry">
@@ -581,11 +581,26 @@
         <mxCell id="ZuSfluq8Mz6mo271DPit-21" value="&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;android_hardware&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;_SensorManager&lt;/font&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;align=left;" vertex="1" parent="ZuSfluq8Mz6mo271DPit-1">
           <mxGeometry x="510" y="280" width="130" height="440" as="geometry" />
         </mxCell>
+        <mxCell id="ZuSfluq8Mz6mo271DPit-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ZuSfluq8Mz6mo271DPit-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="769.5" y="628" as="sourcePoint" />
+            <mxPoint x="924.5" y="628" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="ZuSfluq8Mz6mo271DPit-22" value="&lt;font style=&quot;font-size: 12px&quot;&gt;SensorManager&lt;/font&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;align=left;" vertex="1" parent="ZuSfluq8Mz6mo271DPit-1">
           <mxGeometry x="705" y="280" width="130" height="430" as="geometry" />
         </mxCell>
         <mxCell id="ZuSfluq8Mz6mo271DPit-30" value="1.2getSensorList" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="ZuSfluq8Mz6mo271DPit-1">
           <mxGeometry x="365" y="560" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZuSfluq8Mz6mo271DPit-34" value="1.3getSensorList" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="ZuSfluq8Mz6mo271DPit-1">
+          <mxGeometry x="605" y="590" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZuSfluq8Mz6mo271DPit-35" value="&lt;font style=&quot;font-size: 12px&quot;&gt;ISensorServer&lt;/font&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;align=left;" vertex="1" parent="ZuSfluq8Mz6mo271DPit-1">
+          <mxGeometry x="860" y="280" width="130" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="ZuSfluq8Mz6mo271DPit-37" value="1.4getSensorList" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="ZuSfluq8Mz6mo271DPit-1">
+          <mxGeometry x="800" y="603" width="110" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
