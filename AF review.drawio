@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-04T09:42:59.086Z" agent="5.0 (X11)" etag="0PwT6nDB4VOrW2v5Xd8H" version="14.4.2" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2021-03-04T09:44:30.847Z" agent="5.0 (X11)" etag="M8apl-xpnV0kXBL8DucX" version="14.4.2" type="github" pages="11">
   <diagram id="dWmSh3rdpuQd5Bmy_6qM" name="Battery">
     <mxGraphModel dx="1355" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -502,7 +502,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ZuSfluq8Mz6mo271DPit-2" value=":SensorManager" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="ZuSfluq8Mz6mo271DPit-1">
-          <mxGeometry x="40" y="280" width="100" height="300" as="geometry" />
+          <mxGeometry x="40" y="280" width="100" height="430" as="geometry" />
         </mxCell>
         <mxCell id="ZuSfluq8Mz6mo271DPit-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ZuSfluq8Mz6mo271DPit-1" source="ZuSfluq8Mz6mo271DPit-3" target="ZuSfluq8Mz6mo271DPit-21">
           <mxGeometry relative="1" as="geometry">
