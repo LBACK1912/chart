@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-16T07:31:23.522Z" agent="5.0 (Windows)" etag="o1GbB3_4QBHsDiOZq-Vg" version="14.4.8" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-03-16T07:33:06.475Z" agent="5.0 (Windows)" etag="Q7HEvIkaue009zPgMyga" version="14.4.8" type="github" pages="5">
   <diagram id="mVWWuTxC_VbO-vwNad3Q" name="Plan">
     <mxGraphModel dx="782" dy="404" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -67,19 +67,19 @@
           <mxGeometry x="630" y="204" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tNLlz-yMEQtdrSRHmOsQ-38" value="重启设备通知仍然保存" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="tNLlz-yMEQtdrSRHmOsQ-1">
-          <mxGeometry x="330" y="340" width="160" height="30" as="geometry" />
+          <mxGeometry x="330" y="440" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tNLlz-yMEQtdrSRHmOsQ-39" value="勿扰模式下静默显示通知" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="tNLlz-yMEQtdrSRHmOsQ-1">
-          <mxGeometry x="330" y="300" width="170" height="30" as="geometry" />
+          <mxGeometry x="330" y="400" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tNLlz-yMEQtdrSRHmOsQ-40" value="解析带表情的通知" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="tNLlz-yMEQtdrSRHmOsQ-1">
-          <mxGeometry x="330" y="380" width="140" height="30" as="geometry" />
+          <mxGeometry x="330" y="480" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tNLlz-yMEQtdrSRHmOsQ-41" value="触屏不灵敏问题" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="tNLlz-yMEQtdrSRHmOsQ-1">
           <mxGeometry x="850" y="254" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tNLlz-yMEQtdrSRHmOsQ-42" value="切换时区后alarm提醒" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="tNLlz-yMEQtdrSRHmOsQ-1">
-          <mxGeometry x="330" y="430" width="150" height="30" as="geometry" />
+          <mxGeometry x="330" y="530" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tNLlz-yMEQtdrSRHmOsQ-43" value="功能特性" style="ellipse;whiteSpace=wrap;html=1;align=center;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};treeFolding=1;treeMoving=1;" vertex="1" parent="tNLlz-yMEQtdrSRHmOsQ-1">
           <mxGeometry x="40" y="682" width="100" height="40" as="geometry" />
@@ -124,10 +124,10 @@
           <mxGeometry x="1200" y="204" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tNLlz-yMEQtdrSRHmOsQ-58" value="步数需要零点清0清除" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="tNLlz-yMEQtdrSRHmOsQ-1">
-          <mxGeometry x="330" y="480" width="160" height="30" as="geometry" />
+          <mxGeometry x="330" y="300" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tNLlz-yMEQtdrSRHmOsQ-59" value="睡眠数据需要15点清除" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="tNLlz-yMEQtdrSRHmOsQ-1">
-          <mxGeometry x="330" y="520" width="160" height="30" as="geometry" />
+          <mxGeometry x="330" y="350" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
