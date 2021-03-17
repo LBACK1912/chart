@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-17T08:31:11.344Z" agent="5.0 (Windows)" etag="wzu0SfLk6breP7Op2CDp" version="14.4.8" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-03-17T08:49:30.043Z" agent="5.0 (Windows)" etag="y64yyKZgsFz87XQc-nLY" version="14.4.8" type="github" pages="5">
   <diagram id="mVWWuTxC_VbO-vwNad3Q" name="Plan">
     <mxGraphModel dx="782" dy="404" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -61,7 +61,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tNLlz-yMEQtdrSRHmOsQ-35" value="1分钟内接收20条通知" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" parent="tNLlz-yMEQtdrSRHmOsQ-1" vertex="1">
-          <mxGeometry x="630" y="254" width="160" height="30" as="geometry" />
+          <mxGeometry x="640" y="320" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tNLlz-yMEQtdrSRHmOsQ-36" value="1分钟内删除接收的重复联系人通知" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" parent="tNLlz-yMEQtdrSRHmOsQ-1" vertex="1">
           <mxGeometry x="310" y="270" width="230" height="30" as="geometry" />
@@ -104,7 +104,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tNLlz-yMEQtdrSRHmOsQ-48" value="定制不同运动类型进度条" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" parent="tNLlz-yMEQtdrSRHmOsQ-1" vertex="1">
-          <mxGeometry x="840" y="250" width="170" height="30" as="geometry" />
+          <mxGeometry x="850" y="310" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tNLlz-yMEQtdrSRHmOsQ-50" value="根据运动数据更新进度" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" parent="tNLlz-yMEQtdrSRHmOsQ-1" vertex="1">
           <mxGeometry x="180" y="912" width="160" height="30" as="geometry" />
@@ -167,6 +167,27 @@
         </mxCell>
         <mxCell id="BQzjKILyL0WDWtUlH1uS-5" value="&lt;div align=&quot;left&quot;&gt;新消息/删除消息后/跳转消息，立即保存到内存和文件，&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;进程启动后，加载文件到内存&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="tNLlz-yMEQtdrSRHmOsQ-1">
           <mxGeometry x="450" y="680" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BQzjKILyL0WDWtUlH1uS-6" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; color: rgb(0 , 0 , 0) ; font-family: &amp;#34;consolas&amp;#34;&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;Settings.System+不同资源&lt;/font&gt;&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="tNLlz-yMEQtdrSRHmOsQ-1">
+          <mxGeometry x="840" y="230" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BQzjKILyL0WDWtUlH1uS-7" value="permission level+receiver" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="tNLlz-yMEQtdrSRHmOsQ-1">
+          <mxGeometry x="1430" y="148" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BQzjKILyL0WDWtUlH1uS-8" value="provider 代替aidl 接口" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="tNLlz-yMEQtdrSRHmOsQ-1">
+          <mxGeometry x="1200" y="250" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BQzjKILyL0WDWtUlH1uS-9" value="&lt;div align=&quot;left&quot;&gt;小屏幕，系统将单击手势识别成滑动手势，&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;拦截ontouch事件，若在单击区域内则先&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;执行单击事件，后执行滑动事件&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;否则执行滑动事件&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="tNLlz-yMEQtdrSRHmOsQ-1">
+          <mxGeometry x="620" y="250" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BQzjKILyL0WDWtUlH1uS-10" value="使接收通知存储内存和显示通知在一个线程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="tNLlz-yMEQtdrSRHmOsQ-1">
+          <mxGeometry x="630" y="370" width="240" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BQzjKILyL0WDWtUlH1uS-11" value="深色模式" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="tNLlz-yMEQtdrSRHmOsQ-1">
+          <mxGeometry x="850" y="270" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BQzjKILyL0WDWtUlH1uS-12" value="设置pendingItent flag为ONE_SHOT" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="tNLlz-yMEQtdrSRHmOsQ-1">
+          <mxGeometry x="340" y="790" width="210" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
