@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-18T09:36:02.903Z" agent="5.0 (Windows)" etag="8BBaBweJhx-XAYyrU3bS" version="14.4.9" type="github" pages="14">
+<mxfile host="app.diagrams.net" modified="2021-03-18T10:24:31.545Z" agent="5.0 (Windows)" etag="BLSHoLrpYIUaIkhoQzE0" version="14.4.9" type="github" pages="14">
   <diagram id="dWmSh3rdpuQd5Bmy_6qM" name="Battery">
     <mxGraphModel dx="782" dy="404" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -360,22 +360,43 @@
           <mxGeometry x="80" y="-980" width="890" height="160" as="geometry" />
         </mxCell>
         <mxCell id="VW0DSwxE0DkdlO8oXUSN-0" value="&lt;div style=&quot;font-size: 16px&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;frameworks/base/packages/SystemUI/src/com/android/systemui/biometrics/AuthCredentialPatternView.java&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;frameworks/base/packages/SystemUI/src/com/android/systemui/biometrics/AuthCredentialPasswordView.java&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="xhEgfkJSY4XmHLy5GlEz-1">
-          <mxGeometry x="80" y="-720" width="800" height="30" as="geometry" />
+          <mxGeometry x="80" y="-645" width="800" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="VW0DSwxE0DkdlO8oXUSN-1" value="&lt;font style=&quot;font-size: 16px&quot;&gt;frameworks/base/core/java/com/android/internal/widget/LockPatternChecker.java&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="xhEgfkJSY4XmHLy5GlEz-1">
-          <mxGeometry x="70" y="-670" width="590" height="20" as="geometry" />
+        <mxCell id="VW0DSwxE0DkdlO8oXUSN-1" value="&lt;font style=&quot;font-size: 16px&quot;&gt;5 frameworks/base/core/java/com/android/internal/widget/LockPatternChecker.java&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="xhEgfkJSY4XmHLy5GlEz-1">
+          <mxGeometry x="70" y="-600" width="600" height="20" as="geometry" />
         </mxCell>
         <mxCell id="VW0DSwxE0DkdlO8oXUSN-2" value="&lt;font style=&quot;font-size: 16px&quot;&gt;frameworks/base/packages/SystemUI/src/com/android/systemui/biometrics/AuthCredentialView.java&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="xhEgfkJSY4XmHLy5GlEz-1">
-          <mxGeometry x="70" y="-640" width="720" height="20" as="geometry" />
+          <mxGeometry x="60" y="-420" width="720" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="VW0DSwxE0DkdlO8oXUSN-3" value="&lt;font style=&quot;font-size: 16px&quot;&gt;frameworks/base/packages/SystemUI/src/com/android/systemui/keyguard/KeyguardService.java&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="xhEgfkJSY4XmHLy5GlEz-1">
-          <mxGeometry x="75" y="-600" width="700" height="20" as="geometry" />
+        <mxCell id="VW0DSwxE0DkdlO8oXUSN-3" value="&lt;font style=&quot;font-size: 16px&quot;&gt;3 frameworks/base/packages/SystemUI/src/com/android/systemui/keyguard/KeyguardService.java&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="xhEgfkJSY4XmHLy5GlEz-1">
+          <mxGeometry x="65" y="-510" width="710" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="VW0DSwxE0DkdlO8oXUSN-4" value="frameworks/base/services/core/java/com/android/server/policy/PhoneWindowManager.java&amp;nbsp; &lt;span class=&quot;cm-def&quot;&gt;launchHomeFromHotKey&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="xhEgfkJSY4XmHLy5GlEz-1">
-          <mxGeometry x="70" y="-560" width="640" height="20" as="geometry" />
+        <mxCell id="VW0DSwxE0DkdlO8oXUSN-4" value="1 frameworks/base/services/core/java/com/android/server/policy/PhoneWindowManager.java&amp;nbsp; &lt;span class=&quot;cm-def&quot;&gt;launchHomeFromHotKey&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="xhEgfkJSY4XmHLy5GlEz-1">
+          <mxGeometry x="60" y="-570" width="650" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="VW0DSwxE0DkdlO8oXUSN-5" value="frameworks/base/services/core/java/com/android/server/policy/keyguard/KeyguardServiceDelegate.java" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="xhEgfkJSY4XmHLy5GlEz-1">
-          <mxGeometry x="70" y="-540" width="570" height="20" as="geometry" />
+        <mxCell id="VW0DSwxE0DkdlO8oXUSN-5" value="2 frameworks/base/services/core/java/com/android/server/policy/keyguard/KeyguardServiceDelegate.java" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="xhEgfkJSY4XmHLy5GlEz-1">
+          <mxGeometry x="60" y="-540" width="580" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VW0DSwxE0DkdlO8oXUSN-6" value="&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 4 frameworks/base/packages/SystemUI/src/com/android/systemui/biometrics/AuthController.java&amp;nbsp; buildDialog&lt;/div&gt;&lt;div&gt;frameworks/base/packages/SystemUI/src/com/android/systemui/biometrics/AuthContainerView.java&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="xhEgfkJSY4XmHLy5GlEz-1">
+          <mxGeometry x="35" y="-680" width="630" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VW0DSwxE0DkdlO8oXUSN-7" value="2 frameworks/base/services/core/java/com/android/server/statusbar/StatusBarManagerService.java" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="xhEgfkJSY4XmHLy5GlEz-1">
+          <mxGeometry x="75" y="-760" width="540" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VW0DSwxE0DkdlO8oXUSN-8" value="mBar.&lt;span class=&quot;search-match-layer search-match selected-match match-1&quot;&gt;showAuthenticationDialog&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="xhEgfkJSY4XmHLy5GlEz-1">
+          <mxGeometry x="610" y="-760" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VW0DSwxE0DkdlO8oXUSN-9" value="3 frameworks/base/packages/SystemUI/src/com/android/systemui/statusbar/CommandQueue.java" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="xhEgfkJSY4XmHLy5GlEz-1">
+          <mxGeometry x="75" y="-730" width="540" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VW0DSwxE0DkdlO8oXUSN-10" value="&lt;span class=&quot;cm-def&quot;&gt;&lt;a class=&quot;semantic-decoration&quot; href=&quot;https://cs.android.com/android/platform/superproject/+/master:frameworks/base/packages/SystemUI/src/com/android/systemui/statusbar/CommandQueue.java;bpv=1;bpt=1;l=783?q=showAuthenticationDialog&amp;amp;ss=android%2Fplatform%2Fsuperproject:frameworks%2Fbase%2Fpackages%2FSystemUI%2F&amp;amp;gsn=showAuthenticationDialog&amp;amp;gs=kythe%3A%2F%2Fandroid.googlesource.com%2Fplatform%2Fsuperproject%3Flang%3Djava%3Fpath%3Dcom.android.systemui.statusbar.CommandQueue%23f053d3b4ff68c00ab5d63962ef264cccf35b3d18540e15fc57de076000f39979&quot;&gt;&lt;span class=&quot;search-match-layer search-match selected-match match-1&quot;&gt;showAuthenticationDialog&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="xhEgfkJSY4XmHLy5GlEz-1">
+          <mxGeometry x="615" y="-730" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VW0DSwxE0DkdlO8oXUSN-11" value="1 frameworks/base/services/core/java/com/android/server/biometrics/BiometricService.java" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="xhEgfkJSY4XmHLy5GlEz-1">
+          <mxGeometry x="70" y="-780" width="500" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VW0DSwxE0DkdlO8oXUSN-13" value="&lt;font style=&quot;font-size: 16px&quot;&gt;4 &lt;font style=&quot;font-size: 16px&quot;&gt;frameworks/base/packages/SystemUI/src/com/android/systemui/keyguard/KeyguardViewMediator.java&lt;/font&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="xhEgfkJSY4XmHLy5GlEz-1">
+          <mxGeometry x="60" y="-480" width="760" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
