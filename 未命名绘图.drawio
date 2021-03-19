@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-19T08:35:25.497Z" agent="5.0 (Windows)" etag="uokl2vyaY9C8JW61RxNH" version="14.4.9" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-03-19T09:41:39.094Z" agent="5.0 (Windows)" etag="k20BavYe1EZ0kRSZFRi2" version="14.4.9" type="github" pages="5">
   <diagram id="mVWWuTxC_VbO-vwNad3Q" name="Plan">
     <mxGraphModel dx="782" dy="404" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -189,8 +189,59 @@
         <mxCell id="BQzjKILyL0WDWtUlH1uS-12" value="设置pendingItent flag为ONE_SHOT" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="tNLlz-yMEQtdrSRHmOsQ-1" vertex="1">
           <mxGeometry x="340" y="790" width="210" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="2henv8yXizlIHoVuq8M5-0" value="&lt;div&gt;Canvas.drawArc&lt;/div&gt;&lt;div&gt;拓展缩放图片&lt;/div&gt;&lt;div&gt; &lt;span class=&quot;cm-variable-2&quot;&gt;&lt;a class=&quot;semantic-decoration&quot; href=&quot;https://cs.android.com/android/platform/superproject/+/master:packages/apps/Settings/src/com/android/settings/users/EditUserPhotoController.java;drc=master;l=299?q=EditUserPhotoController&amp;amp;ss=android%2Fplatform%2Fsuperproject&quot;&gt;canvas&lt;/a&gt;&lt;/span&gt;.drawBitmap(&lt;span class=&quot;cm-variable-2&quot;&gt;&lt;a class=&quot;semantic-decoration&quot; href=&quot;https://cs.android.com/android/platform/superproject/+/master:packages/apps/Settings/src/com/android/settings/users/EditUserPhotoController.java;drc=master;l=300?q=EditUserPhotoController&amp;amp;ss=android%2Fplatform%2Fsuperproject&quot;&gt;fullImage&lt;/a&gt;&lt;/span&gt;, &lt;span class=&quot;cm-variable-2&quot;&gt;&lt;a class=&quot;semantic-decoration&quot; href=&quot;https://cs.android.com/android/platform/superproject/+/master:packages/apps/Settings/src/com/android/settings/users/EditUserPhotoController.java;drc=master;l=313?q=EditUserPhotoController&amp;amp;ss=android%2Fplatform%2Fsuperproject&quot;&gt;rectSource&lt;/a&gt;&lt;/span&gt;, &lt;span class=&quot;cm-variable-2&quot;&gt;&lt;a class=&quot;semantic-decoration&quot; href=&quot;https://cs.android.com/android/platform/superproject/+/master:packages/apps/Settings/src/com/android/settings/users/EditUserPhotoController.java;drc=master;l=315?q=EditUserPhotoController&amp;amp;ss=android%2Fplatform%2Fsuperproject&quot;&gt;rectDest&lt;/a&gt;&lt;/span&gt;, &lt;span class=&quot;cm-variable-2&quot;&gt;&lt;a class=&quot;semantic-decoration&quot; href=&quot;https://cs.android.com/android/platform/superproject/+/master:packages/apps/Settings/src/com/android/settings/users/EditUserPhotoController.java;drc=master;l=316?q=EditUserPhotoController&amp;amp;ss=android%2Fplatform%2Fsuperproject&quot;&gt;paint&lt;/a&gt;&lt;/span&gt;);&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="tNLlz-yMEQtdrSRHmOsQ-1">
+        <mxCell id="2henv8yXizlIHoVuq8M5-0" value="&lt;div&gt;Canvas.drawArc&lt;/div&gt;&lt;div&gt;拓展缩放图片&lt;/div&gt;&lt;div&gt; &lt;span class=&quot;cm-variable-2&quot;&gt;&lt;a class=&quot;semantic-decoration&quot; href=&quot;https://cs.android.com/android/platform/superproject/+/master:packages/apps/Settings/src/com/android/settings/users/EditUserPhotoController.java;drc=master;l=299?q=EditUserPhotoController&amp;amp;ss=android%2Fplatform%2Fsuperproject&quot;&gt;canvas&lt;/a&gt;&lt;/span&gt;.drawBitmap(&lt;span class=&quot;cm-variable-2&quot;&gt;&lt;a class=&quot;semantic-decoration&quot; href=&quot;https://cs.android.com/android/platform/superproject/+/master:packages/apps/Settings/src/com/android/settings/users/EditUserPhotoController.java;drc=master;l=300?q=EditUserPhotoController&amp;amp;ss=android%2Fplatform%2Fsuperproject&quot;&gt;fullImage&lt;/a&gt;&lt;/span&gt;, &lt;span class=&quot;cm-variable-2&quot;&gt;&lt;a class=&quot;semantic-decoration&quot; href=&quot;https://cs.android.com/android/platform/superproject/+/master:packages/apps/Settings/src/com/android/settings/users/EditUserPhotoController.java;drc=master;l=313?q=EditUserPhotoController&amp;amp;ss=android%2Fplatform%2Fsuperproject&quot;&gt;rectSource&lt;/a&gt;&lt;/span&gt;, &lt;span class=&quot;cm-variable-2&quot;&gt;&lt;a class=&quot;semantic-decoration&quot; href=&quot;https://cs.android.com/android/platform/superproject/+/master:packages/apps/Settings/src/com/android/settings/users/EditUserPhotoController.java;drc=master;l=315?q=EditUserPhotoController&amp;amp;ss=android%2Fplatform%2Fsuperproject&quot;&gt;rectDest&lt;/a&gt;&lt;/span&gt;, &lt;span class=&quot;cm-variable-2&quot;&gt;&lt;a class=&quot;semantic-decoration&quot; href=&quot;https://cs.android.com/android/platform/superproject/+/master:packages/apps/Settings/src/com/android/settings/users/EditUserPhotoController.java;drc=master;l=316?q=EditUserPhotoController&amp;amp;ss=android%2Fplatform%2Fsuperproject&quot;&gt;paint&lt;/a&gt;&lt;/span&gt;);&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="tNLlz-yMEQtdrSRHmOsQ-1" vertex="1">
           <mxGeometry x="920" y="350" width="330" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="v8KJgjF3nx-LMQuyAALV-0" value="算法" style="ellipse;whiteSpace=wrap;html=1;align=center;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};treeFolding=1;treeMoving=1;" vertex="1" parent="tNLlz-yMEQtdrSRHmOsQ-1">
+          <mxGeometry y="1022" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="v8KJgjF3nx-LMQuyAALV-1" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;" edge="1" parent="tNLlz-yMEQtdrSRHmOsQ-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="1032" as="sourcePoint" />
+            <mxPoint x="140" y="1005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v8KJgjF3nx-LMQuyAALV-2" value="使alarm提醒不生效与生效之间切换" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="tNLlz-yMEQtdrSRHmOsQ-1">
+          <mxGeometry x="140" y="1052" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v8KJgjF3nx-LMQuyAALV-3" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="tNLlz-yMEQtdrSRHmOsQ-1" source="v8KJgjF3nx-LMQuyAALV-0" target="v8KJgjF3nx-LMQuyAALV-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="1082" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v8KJgjF3nx-LMQuyAALV-4" value="根据运动数据更新进度" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="tNLlz-yMEQtdrSRHmOsQ-1">
+          <mxGeometry x="140" y="1112" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v8KJgjF3nx-LMQuyAALV-5" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="tNLlz-yMEQtdrSRHmOsQ-1" source="v8KJgjF3nx-LMQuyAALV-0" target="v8KJgjF3nx-LMQuyAALV-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="1082" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v8KJgjF3nx-LMQuyAALV-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="tNLlz-yMEQtdrSRHmOsQ-1" source="v8KJgjF3nx-LMQuyAALV-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="1007" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v8KJgjF3nx-LMQuyAALV-6" value="计算睡眠时长" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="tNLlz-yMEQtdrSRHmOsQ-1">
+          <mxGeometry x="140" y="992" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v8KJgjF3nx-LMQuyAALV-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="tNLlz-yMEQtdrSRHmOsQ-1" source="v8KJgjF3nx-LMQuyAALV-8" target="v8KJgjF3nx-LMQuyAALV-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v8KJgjF3nx-LMQuyAALV-8" value="睡眠状态采样，时间间隔无规律数据点" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="tNLlz-yMEQtdrSRHmOsQ-1">
+          <mxGeometry x="275" y="992" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v8KJgjF3nx-LMQuyAALV-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="tNLlz-yMEQtdrSRHmOsQ-1" source="v8KJgjF3nx-LMQuyAALV-9" target="v8KJgjF3nx-LMQuyAALV-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v8KJgjF3nx-LMQuyAALV-9" value="在离散时间点中按秒间隔线性插值（新增睡眠状态点）" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="tNLlz-yMEQtdrSRHmOsQ-1">
+          <mxGeometry x="488" y="1052" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v8KJgjF3nx-LMQuyAALV-10" value="以5-25分钟为区间，概率统计。若睡眠点超过80%则睡眠，若清醒数据点超过95%则清醒" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="tNLlz-yMEQtdrSRHmOsQ-1">
+          <mxGeometry x="510" y="1170" width="510" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v8KJgjF3nx-LMQuyAALV-14" value="统计学方法，curve ftting" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="tNLlz-yMEQtdrSRHmOsQ-1">
+          <mxGeometry x="485" y="1030" width="150" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
