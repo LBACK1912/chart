@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-24T11:38:57.196Z" agent="5.0 (Windows)" etag="VBiB1ws5osAvWjzcFBep" version="14.4.9" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2021-03-24T11:54:14.080Z" agent="5.0 (Windows)" etag="Ub7azLn4IGfkV3akGgu8" version="14.4.9" type="github" pages="8">
   <diagram id="mVWWuTxC_VbO-vwNad3Q" name="Plan">
     <mxGraphModel dx="782" dy="404" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -345,6 +345,56 @@
         </mxCell>
         <mxCell id="aX9t7NrnFaRv0FJYFLyS-55" value="例如StatusBarManagerService" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="zrT8IM2uKF3ctOM8BMlT-1">
           <mxGeometry x="145" y="270" width="180" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Y5BLa8I5A8hP5gZVEh4V" name="性能优化">
+    <mxGraphModel dx="782" dy="404" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="3xpl-FqbJRMD2O1tvmGr-0" />
+        <mxCell id="3xpl-FqbJRMD2O1tvmGr-1" parent="3xpl-FqbJRMD2O1tvmGr-0" />
+        <mxCell id="kYVdmpe7rf-dGYAV-22C-0" value="内存不足OutOfMemeory" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="3xpl-FqbJRMD2O1tvmGr-1">
+          <mxGeometry x="70" y="40" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kYVdmpe7rf-dGYAV-22C-1" value="内存超过平台分配上限" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3xpl-FqbJRMD2O1tvmGr-1">
+          <mxGeometry x="250" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kYVdmpe7rf-dGYAV-22C-2" value="内存溢出" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3xpl-FqbJRMD2O1tvmGr-1">
+          <mxGeometry x="250" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kYVdmpe7rf-dGYAV-22C-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="3xpl-FqbJRMD2O1tvmGr-1" source="kYVdmpe7rf-dGYAV-22C-3" target="kYVdmpe7rf-dGYAV-22C-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kYVdmpe7rf-dGYAV-22C-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="3xpl-FqbJRMD2O1tvmGr-1" source="kYVdmpe7rf-dGYAV-22C-3" target="kYVdmpe7rf-dGYAV-22C-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kYVdmpe7rf-dGYAV-22C-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="3xpl-FqbJRMD2O1tvmGr-1" source="kYVdmpe7rf-dGYAV-22C-3" target="kYVdmpe7rf-dGYAV-22C-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kYVdmpe7rf-dGYAV-22C-3" value="&lt;div&gt;ANR&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="3xpl-FqbJRMD2O1tvmGr-1">
+          <mxGeometry x="70" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kYVdmpe7rf-dGYAV-22C-4" value="input dispatch timeout" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3xpl-FqbJRMD2O1tvmGr-1">
+          <mxGeometry x="250" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kYVdmpe7rf-dGYAV-22C-5" value="service timeout" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3xpl-FqbJRMD2O1tvmGr-1">
+          <mxGeometry x="250" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kYVdmpe7rf-dGYAV-22C-6" value="receiver timeout" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3xpl-FqbJRMD2O1tvmGr-1">
+          <mxGeometry x="250" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kYVdmpe7rf-dGYAV-22C-8" value="启动时间" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="3xpl-FqbJRMD2O1tvmGr-1">
+          <mxGeometry x="70" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kYVdmpe7rf-dGYAV-22C-9" value="&lt;div align=&quot;left&quot;&gt;分析冷启动流程时间&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;1 创建进程&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;2 启动Application&lt;br&gt;&lt;/div&gt;&lt;div&gt;3 启动lancher Activity &lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;查看log displayed关键字&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="3xpl-FqbJRMD2O1tvmGr-1">
+          <mxGeometry x="230" y="440" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="kYVdmpe7rf-dGYAV-22C-14" value="帧渲染慢" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="3xpl-FqbJRMD2O1tvmGr-1">
+          <mxGeometry x="70" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kYVdmpe7rf-dGYAV-22C-15" value="找到复现步骤，分析GPU渲染时间 &lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;查看开发者选项-GPU rendering&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="3xpl-FqbJRMD2O1tvmGr-1">
+          <mxGeometry x="230" y="620" width="140" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
