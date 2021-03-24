@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-22T09:36:13.227Z" agent="5.0 (Windows)" etag="Uws5QryXADKaPj4MKzjA" version="14.4.9" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-03-24T10:53:38.040Z" agent="5.0 (Windows)" etag="OgKBf1LAv2tNmDKzHTDx" version="14.4.9" type="github" pages="6">
   <diagram id="mVWWuTxC_VbO-vwNad3Q" name="Plan">
     <mxGraphModel dx="782" dy="404" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -245,6 +245,17 @@
         </mxCell>
         <mxCell id="v8KJgjF3nx-LMQuyAALV-15" value="扩展，动画插值器" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="tNLlz-yMEQtdrSRHmOsQ-1" vertex="1">
           <mxGeometry x="510" y="1210" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pv7sN4kODon4J3PlKNRE-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="tNLlz-yMEQtdrSRHmOsQ-1" source="pv7sN4kODon4J3PlKNRE-0" target="pv7sN4kODon4J3PlKNRE-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="1260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pv7sN4kODon4J3PlKNRE-0" value="&lt;div&gt;高通 VS MTK&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="tNLlz-yMEQtdrSRHmOsQ-1">
+          <mxGeometry x="10" y="1260" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pv7sN4kODon4J3PlKNRE-2" value="&lt;div align=&quot;left&quot;&gt;以thermal为例，高通明确提供限制流量接口。mtk需要通临时定制device接口。高通hal接口设计更全面加周到，为上层提供更多读取底层信息的接口，便于底层性能优化。&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;还有高通降sa接口&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="tNLlz-yMEQtdrSRHmOsQ-1">
+          <mxGeometry x="235" y="1235" width="330" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
