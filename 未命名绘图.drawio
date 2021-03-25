@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-25T06:45:38.332Z" agent="5.0 (Windows)" etag="ezl_VZE2blZkYjbfg4zK" version="14.5.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-03-25T06:55:12.755Z" agent="5.0 (Windows)" etag="wAGy-WPeV9QaoOAVR35n" version="14.5.1" type="github" pages="8">
   <diagram id="mVWWuTxC_VbO-vwNad3Q" name="Plan">
     <mxGraphModel dx="782" dy="404" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -432,8 +432,8 @@
         <mxCell id="SxalAehEmHLOBXmFxArJ-12" value="用sparseArray替代HashMap" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="3xpl-FqbJRMD2O1tvmGr-1" vertex="1">
           <mxGeometry x="400" y="210" width="170" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="SxalAehEmHLOBXmFxArJ-13" value="用weakreference封装可以被回收的临时数据信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="3xpl-FqbJRMD2O1tvmGr-1" vertex="1">
-          <mxGeometry x="410" y="310" width="270" height="20" as="geometry" />
+        <mxCell id="SxalAehEmHLOBXmFxArJ-13" value="用weakreference封装可以被回收的临时数据信息比如weakrefernceMap" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="3xpl-FqbJRMD2O1tvmGr-1" vertex="1">
+          <mxGeometry x="350" y="310" width="390" height="20" as="geometry" />
         </mxCell>
         <mxCell id="SxalAehEmHLOBXmFxArJ-14" value="减少抽象层次" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="3xpl-FqbJRMD2O1tvmGr-1" vertex="1">
           <mxGeometry x="400" y="230" width="90" height="20" as="geometry" />
