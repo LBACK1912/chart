@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-25T06:56:06.740Z" agent="5.0 (Windows)" etag="b99KaPqABlXt3yLMHWOH" version="14.5.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-03-25T07:00:28.562Z" agent="5.0 (Windows)" etag="D2qizQ-gZbLPC0OzAYgD" version="14.5.1" type="github" pages="8">
   <diagram id="mVWWuTxC_VbO-vwNad3Q" name="Plan">
     <mxGraphModel dx="782" dy="404" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -414,8 +414,8 @@
         <mxCell id="SxalAehEmHLOBXmFxArJ-4" value="查看heap 大小上限" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="3xpl-FqbJRMD2O1tvmGr-1" vertex="1">
           <mxGeometry x="580" y="30" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="SxalAehEmHLOBXmFxArJ-5" value="Activity实现&lt;code dir=&quot;ltr&quot;&gt;&lt;a href=&quot;https://developer.android.google.cn/reference/android/content/ComponentCallbacks2&quot;&gt;ComponentCallbacks2&lt;/a&gt;&lt;/code&gt;监听&lt;code dir=&quot;ltr&quot;&gt;&lt;a href=&quot;https://developer.android.google.cn/reference/android/content/ComponentCallbacks2#onTrimMemory(int)&quot;&gt;onTrimMemory()&lt;/a&gt;&lt;/code&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="3xpl-FqbJRMD2O1tvmGr-1" vertex="1">
-          <mxGeometry x="400" y="60" width="300" height="20" as="geometry" />
+        <mxCell id="SxalAehEmHLOBXmFxArJ-5" value="&lt;div&gt;Activity实现&lt;code dir=&quot;ltr&quot;&gt;&lt;a href=&quot;https://developer.android.google.cn/reference/android/content/ComponentCallbacks2&quot;&gt;ComponentCallbacks2&lt;/a&gt;&lt;/code&gt;监听&lt;code dir=&quot;ltr&quot;&gt;&lt;a href=&quot;https://developer.android.google.cn/reference/android/content/ComponentCallbacks2#onTrimMemory(int)&quot;&gt;onTrimMemory()&lt;/a&gt;&lt;br&gt;&lt;/code&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;code&gt;dumpsys meminfo size total&lt;/code&gt;&lt;br&gt;&lt;code dir=&quot;ltr&quot;&gt;&lt;/code&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="3xpl-FqbJRMD2O1tvmGr-1" vertex="1">
+          <mxGeometry x="400" y="55" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="SxalAehEmHLOBXmFxArJ-8" value="&lt;a href=&quot;https://developer.android.google.cn/studio/profile/memory-profiler&quot;&gt;AS 工具Memory Profiler&lt;/a&gt; " style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="3xpl-FqbJRMD2O1tvmGr-1" vertex="1">
           <mxGeometry x="400" y="120" width="140" height="20" as="geometry" />
