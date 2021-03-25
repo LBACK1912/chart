@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-25T06:02:53.099Z" agent="5.0 (Windows)" etag="ZgQg62Ndx7tg_haX8EZS" version="14.5.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-03-25T06:03:25.532Z" agent="5.0 (Windows)" etag="kps0oQeNEyu28p0hzBvj" version="14.5.1" type="github" pages="8">
   <diagram id="mVWWuTxC_VbO-vwNad3Q" name="Plan">
     <mxGraphModel dx="782" dy="404" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -453,7 +453,7 @@
         <mxCell id="wDUK-4tKZ-OY62HboP7u-1" value="开发者选项-profile GPU Rendering （一个frame渲染时间）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="3xpl-FqbJRMD2O1tvmGr-1">
           <mxGeometry x="370" y="790" width="330" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="wDUK-4tKZ-OY62HboP7u-2" value="更加色块分析不同渲染阶段花费时间" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="3xpl-FqbJRMD2O1tvmGr-1">
+        <mxCell id="wDUK-4tKZ-OY62HboP7u-2" value="根据色块分析不同渲染阶段花费时间" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="3xpl-FqbJRMD2O1tvmGr-1">
           <mxGeometry x="380" y="830" width="210" height="20" as="geometry" />
         </mxCell>
         <mxCell id="wDUK-4tKZ-OY62HboP7u-3" value="onMesure/onLayout阶段&amp;nbsp;&amp;nbsp; -&amp;gt;view嵌套层次" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="3xpl-FqbJRMD2O1tvmGr-1">
