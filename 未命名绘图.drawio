@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-25T03:45:26.366Z" agent="5.0 (Windows)" etag="WU6o463CdVf8VeoMiA8s" version="14.5.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-03-25T06:02:53.099Z" agent="5.0 (Windows)" etag="ZgQg62Ndx7tg_haX8EZS" version="14.5.1" type="github" pages="8">
   <diagram id="mVWWuTxC_VbO-vwNad3Q" name="Plan">
     <mxGraphModel dx="782" dy="404" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -405,50 +405,80 @@
         <mxCell id="kYVdmpe7rf-dGYAV-22C-14" value="帧渲染慢" style="ellipse;whiteSpace=wrap;html=1;" parent="3xpl-FqbJRMD2O1tvmGr-1" vertex="1">
           <mxGeometry x="50" y="820" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kYVdmpe7rf-dGYAV-22C-15" value="找到复现步骤，分析GPU渲染时间 &lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;查看开发者选项-GPU rendering&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="3xpl-FqbJRMD2O1tvmGr-1" vertex="1">
-          <mxGeometry x="220" y="790" width="140" height="120" as="geometry" />
+        <mxCell id="kYVdmpe7rf-dGYAV-22C-15" value="找到复现步骤，分析GPU渲染时间 &lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;查看开发者选项-&lt;b&gt;Profile GPU Rendering&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;开发者选项- &lt;b&gt;Debug GPU Overdraw&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="3xpl-FqbJRMD2O1tvmGr-1" vertex="1">
+          <mxGeometry x="220" y="790" width="140" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="SxalAehEmHLOBXmFxArJ-1" value="&lt;pre class=&quot;lang-java&quot; dir=&quot;ltr&quot;&gt;&lt;span class=&quot;pln&quot;&gt;&lt;/span&gt;&lt;span class=&quot;typ&quot;&gt;ActivityManager&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;typ&quot;&gt;MemoryInfo&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;()&lt;/span&gt;&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="3xpl-FqbJRMD2O1tvmGr-1">
+        <mxCell id="SxalAehEmHLOBXmFxArJ-1" value="&lt;pre class=&quot;lang-java&quot; dir=&quot;ltr&quot;&gt;&lt;span class=&quot;pln&quot;&gt;&lt;/span&gt;&lt;span class=&quot;typ&quot;&gt;ActivityManager&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;typ&quot;&gt;MemoryInfo&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;()&lt;/span&gt;&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="3xpl-FqbJRMD2O1tvmGr-1" vertex="1">
           <mxGeometry x="400" y="20" width="180" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="SxalAehEmHLOBXmFxArJ-4" value="查看heap 大小上限" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="3xpl-FqbJRMD2O1tvmGr-1">
+        <mxCell id="SxalAehEmHLOBXmFxArJ-4" value="查看heap 大小上限" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="3xpl-FqbJRMD2O1tvmGr-1" vertex="1">
           <mxGeometry x="580" y="30" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="SxalAehEmHLOBXmFxArJ-5" value="Activity实现&lt;code dir=&quot;ltr&quot;&gt;&lt;a href=&quot;https://developer.android.google.cn/reference/android/content/ComponentCallbacks2&quot;&gt;ComponentCallbacks2&lt;/a&gt;&lt;/code&gt;监听&lt;code dir=&quot;ltr&quot;&gt;&lt;a href=&quot;https://developer.android.google.cn/reference/android/content/ComponentCallbacks2#onTrimMemory(int)&quot;&gt;onTrimMemory()&lt;/a&gt;&lt;/code&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="3xpl-FqbJRMD2O1tvmGr-1">
+        <mxCell id="SxalAehEmHLOBXmFxArJ-5" value="Activity实现&lt;code dir=&quot;ltr&quot;&gt;&lt;a href=&quot;https://developer.android.google.cn/reference/android/content/ComponentCallbacks2&quot;&gt;ComponentCallbacks2&lt;/a&gt;&lt;/code&gt;监听&lt;code dir=&quot;ltr&quot;&gt;&lt;a href=&quot;https://developer.android.google.cn/reference/android/content/ComponentCallbacks2#onTrimMemory(int)&quot;&gt;onTrimMemory()&lt;/a&gt;&lt;/code&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="3xpl-FqbJRMD2O1tvmGr-1" vertex="1">
           <mxGeometry x="400" y="60" width="300" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="SxalAehEmHLOBXmFxArJ-8" value="&lt;a href=&quot;https://developer.android.google.cn/studio/profile/memory-profiler&quot;&gt;AS 工具Memory Profiler&lt;/a&gt; " style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="3xpl-FqbJRMD2O1tvmGr-1">
+        <mxCell id="SxalAehEmHLOBXmFxArJ-8" value="&lt;a href=&quot;https://developer.android.google.cn/studio/profile/memory-profiler&quot;&gt;AS 工具Memory Profiler&lt;/a&gt; " style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="3xpl-FqbJRMD2O1tvmGr-1" vertex="1">
           <mxGeometry x="400" y="120" width="140" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="SxalAehEmHLOBXmFxArJ-9" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 检测内存heap具体信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="3xpl-FqbJRMD2O1tvmGr-1">
+        <mxCell id="SxalAehEmHLOBXmFxArJ-9" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 检测内存heap具体信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="3xpl-FqbJRMD2O1tvmGr-1" vertex="1">
           <mxGeometry x="480" y="120" width="200" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="SxalAehEmHLOBXmFxArJ-10" value="内存优化" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3xpl-FqbJRMD2O1tvmGr-1">
+        <mxCell id="SxalAehEmHLOBXmFxArJ-10" value="内存优化" style="rounded=1;whiteSpace=wrap;html=1;" parent="3xpl-FqbJRMD2O1tvmGr-1" vertex="1">
           <mxGeometry x="250" y="190" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="SxalAehEmHLOBXmFxArJ-11" value=" 用&lt;code dir=&quot;ltr&quot;&gt;&lt;a href=&quot;https://developer.android.google.cn/reference/android/app/job/JobScheduler&quot;&gt;JobScheduler&lt;/a&gt;替代&lt;/code&gt;persistent services" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="3xpl-FqbJRMD2O1tvmGr-1">
+        <mxCell id="SxalAehEmHLOBXmFxArJ-11" value=" 用&lt;code dir=&quot;ltr&quot;&gt;&lt;a href=&quot;https://developer.android.google.cn/reference/android/app/job/JobScheduler&quot;&gt;JobScheduler&lt;/a&gt;替代&lt;/code&gt;persistent services" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="3xpl-FqbJRMD2O1tvmGr-1" vertex="1">
           <mxGeometry x="400" y="190" width="220" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="SxalAehEmHLOBXmFxArJ-12" value="用sparseArray替代HashMap" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="3xpl-FqbJRMD2O1tvmGr-1">
+        <mxCell id="SxalAehEmHLOBXmFxArJ-12" value="用sparseArray替代HashMap" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="3xpl-FqbJRMD2O1tvmGr-1" vertex="1">
           <mxGeometry x="400" y="210" width="170" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="SxalAehEmHLOBXmFxArJ-13" value="用weakreference封装可以被回收的临时数据信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="3xpl-FqbJRMD2O1tvmGr-1">
+        <mxCell id="SxalAehEmHLOBXmFxArJ-13" value="用weakreference封装可以被回收的临时数据信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="3xpl-FqbJRMD2O1tvmGr-1" vertex="1">
           <mxGeometry x="410" y="310" width="270" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="SxalAehEmHLOBXmFxArJ-14" value="减少抽象层次" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="3xpl-FqbJRMD2O1tvmGr-1">
+        <mxCell id="SxalAehEmHLOBXmFxArJ-14" value="减少抽象层次" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="3xpl-FqbJRMD2O1tvmGr-1" vertex="1">
           <mxGeometry x="400" y="230" width="90" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="SxalAehEmHLOBXmFxArJ-15" value="及时回收bitmap，及时反注册listener" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="3xpl-FqbJRMD2O1tvmGr-1">
+        <mxCell id="SxalAehEmHLOBXmFxArJ-15" value="及时回收bitmap，及时反注册listener" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="3xpl-FqbJRMD2O1tvmGr-1" vertex="1">
           <mxGeometry x="410" y="330" width="210" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="SxalAehEmHLOBXmFxArJ-16" value="避免for循环频繁创建对象，避免GC频繁回收，通过日志可看到" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="3xpl-FqbJRMD2O1tvmGr-1">
+        <mxCell id="SxalAehEmHLOBXmFxArJ-16" value="避免for循环频繁创建对象，避免GC频繁回收，通过日志可看到" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="3xpl-FqbJRMD2O1tvmGr-1" vertex="1">
           <mxGeometry x="400" y="250" width="350" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="SxalAehEmHLOBXmFxArJ-17" value="避免ondraw频繁创建对象bitmap及paint" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="3xpl-FqbJRMD2O1tvmGr-1">
+        <mxCell id="SxalAehEmHLOBXmFxArJ-17" value="避免ondraw频繁创建对象bitmap及paint" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="3xpl-FqbJRMD2O1tvmGr-1" vertex="1">
           <mxGeometry x="405" y="270" width="220" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="SxalAehEmHLOBXmFxArJ-19" value="通过日志查看频繁GC" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="3xpl-FqbJRMD2O1tvmGr-1">
+        <mxCell id="SxalAehEmHLOBXmFxArJ-19" value="通过日志查看频繁GC" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="3xpl-FqbJRMD2O1tvmGr-1" vertex="1">
           <mxGeometry x="400" y="90" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wDUK-4tKZ-OY62HboP7u-1" value="开发者选项-profile GPU Rendering （一个frame渲染时间）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="3xpl-FqbJRMD2O1tvmGr-1">
+          <mxGeometry x="370" y="790" width="330" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wDUK-4tKZ-OY62HboP7u-2" value="更加色块分析不同渲染阶段花费时间" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="3xpl-FqbJRMD2O1tvmGr-1">
+          <mxGeometry x="380" y="830" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wDUK-4tKZ-OY62HboP7u-3" value="onMesure/onLayout阶段&amp;nbsp;&amp;nbsp; -&amp;gt;view嵌套层次" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="3xpl-FqbJRMD2O1tvmGr-1">
+          <mxGeometry x="380" y="860" width="240" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wDUK-4tKZ-OY62HboP7u-4" value="input handling-&amp;gt;处理用户输入事件" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="3xpl-FqbJRMD2O1tvmGr-1">
+          <mxGeometry x="380" y="920" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wDUK-4tKZ-OY62HboP7u-6" value="动画渲染阶段-&amp;gt;自定义动画" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="3xpl-FqbJRMD2O1tvmGr-1">
+          <mxGeometry x="380" y="900" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wDUK-4tKZ-OY62HboP7u-7" value="onDraw-&amp;gt;自定义view" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="3xpl-FqbJRMD2O1tvmGr-1">
+          <mxGeometry x="380" y="880" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wDUK-4tKZ-OY62HboP7u-9" value="开发者选项-&lt;b&gt;Debug GPU Overdraw (一个像素被渲染多次）&lt;/b&gt; " style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="3xpl-FqbJRMD2O1tvmGr-1">
+          <mxGeometry x="370" y="980" width="330" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wDUK-4tKZ-OY62HboP7u-10" value="降低view嵌套层次" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="3xpl-FqbJRMD2O1tvmGr-1">
+          <mxGeometry x="370" y="1070" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wDUK-4tKZ-OY62HboP7u-11" value="减少view设置透明色" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="3xpl-FqbJRMD2O1tvmGr-1">
+          <mxGeometry x="375" y="1040" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wDUK-4tKZ-OY62HboP7u-12" value="减少非必要的view背景" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="3xpl-FqbJRMD2O1tvmGr-1">
+          <mxGeometry x="370" y="1010" width="140" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
