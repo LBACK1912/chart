@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-25T06:24:32.578Z" agent="5.0 (Windows)" etag="hVa7uf-iBmpnFXWTWQhr" version="14.5.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-03-25T06:34:21.364Z" agent="5.0 (Windows)" etag="9KxhUByxMIMMJFMVSJoF" version="14.5.1" type="github" pages="8">
   <diagram id="mVWWuTxC_VbO-vwNad3Q" name="Plan">
     <mxGraphModel dx="782" dy="404" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -396,8 +396,8 @@
         <mxCell id="kYVdmpe7rf-dGYAV-22C-8" value="启动时间" style="ellipse;whiteSpace=wrap;html=1;" parent="3xpl-FqbJRMD2O1tvmGr-1" vertex="1">
           <mxGeometry x="70" y="640" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kYVdmpe7rf-dGYAV-22C-9" value="&lt;div align=&quot;left&quot;&gt;分析冷启动流程时间&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;1 创建进程&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;2 启动Application&lt;br&gt;&lt;/div&gt;&lt;div&gt;3 启动lancher Activity &lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;查看log displayed关键字&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="3xpl-FqbJRMD2O1tvmGr-1" vertex="1">
-          <mxGeometry x="240" y="610" width="140" height="120" as="geometry" />
+        <mxCell id="kYVdmpe7rf-dGYAV-22C-9" value="&lt;div align=&quot;left&quot;&gt;分析冷启动流程时间&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;1 创建进程&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;2 启动Application&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;2 启动主线程&lt;br&gt;&lt;/div&gt;&lt;div&gt;3 启动lancher Activity&lt;/div&gt;&lt;div&gt;4 实例view&lt;/div&gt;&lt;div&gt;5 绘制界面&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;查看log displayed关键字&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="3xpl-FqbJRMD2O1tvmGr-1" vertex="1">
+          <mxGeometry x="240" y="600" width="140" height="130" as="geometry" />
         </mxCell>
         <mxCell id="kYVdmpe7rf-dGYAV-22C-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="3xpl-FqbJRMD2O1tvmGr-1" source="kYVdmpe7rf-dGYAV-22C-14" target="kYVdmpe7rf-dGYAV-22C-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -480,8 +480,8 @@
         <mxCell id="wDUK-4tKZ-OY62HboP7u-12" value="减少非必要的view背景" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="3xpl-FqbJRMD2O1tvmGr-1">
           <mxGeometry x="370" y="1010" width="140" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="wDUK-4tKZ-OY62HboP7u-13" value="区分类型，分析anr前10s的主线程操作，分析&lt;code dir=&quot;ltr&quot;&gt;/data/anr/traces&lt;/code&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="3xpl-FqbJRMD2O1tvmGr-1">
-          <mxGeometry x="405" y="390" width="350" height="20" as="geometry" />
+        <mxCell id="wDUK-4tKZ-OY62HboP7u-13" value="&lt;div align=&quot;left&quot;&gt;区分类型，分析anr前10s的主线程操作，比如&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;io操作（读日志）&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;主线程执行异步binder调用，另一个进程耗时操作&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;主线程等待其他线程死锁&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;分析&lt;code dir=&quot;ltr&quot;&gt;/data/anr/traces&lt;/code&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="3xpl-FqbJRMD2O1tvmGr-1">
+          <mxGeometry x="545" y="415" width="280" height="80" as="geometry" />
         </mxCell>
         <mxCell id="wDUK-4tKZ-OY62HboP7u-14" value="5s" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="3xpl-FqbJRMD2O1tvmGr-1">
           <mxGeometry x="415" y="410" width="30" height="20" as="geometry" />
