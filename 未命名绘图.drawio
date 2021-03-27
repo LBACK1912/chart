@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-27T08:47:49.715Z" agent="5.0 (Windows)" etag="wEXMwzBjubvIjTgY6fm6" version="14.5.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-03-27T08:51:23.963Z" agent="5.0 (Windows)" etag="n9ytecuMOrsZqbX-1mfj" version="14.5.1" type="github" pages="8">
   <diagram id="mVWWuTxC_VbO-vwNad3Q" name="Plan">
     <mxGraphModel dx="782" dy="404" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -322,6 +322,9 @@
         </mxCell>
         <mxCell id="MNd5jeFNDONBrdV2j1Co-20" value="recyclerView里的button触控不灵敏" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tNLlz-yMEQtdrSRHmOsQ-1">
           <mxGeometry x="385" y="1660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cz2XUwopjPkIPUogNyM2-0" value="HandlerThread+Handler+Message" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="tNLlz-yMEQtdrSRHmOsQ-1">
+          <mxGeometry x="20" y="1850" width="210" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
