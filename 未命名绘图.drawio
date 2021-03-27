@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-27T09:18:19.609Z" agent="5.0 (Windows)" etag="At9ddwLQZpEzvVHtJ5Py" version="14.5.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-03-27T09:27:54.120Z" agent="5.0 (Windows)" etag="W4cdyVbjeF6uD2OS7d97" version="14.5.1" type="github" pages="8">
   <diagram id="mVWWuTxC_VbO-vwNad3Q" name="Plan">
     <mxGraphModel dx="782" dy="404" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -323,11 +323,20 @@
         <mxCell id="MNd5jeFNDONBrdV2j1Co-20" value="recyclerView里的button触控不灵敏" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tNLlz-yMEQtdrSRHmOsQ-1">
           <mxGeometry x="385" y="1660" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="cz2XUwopjPkIPUogNyM2-0" value="接收消息&lt;br&gt;&lt;div&gt;HandlerThread+Handler+Message&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="tNLlz-yMEQtdrSRHmOsQ-1">
+        <mxCell id="cz2XUwopjPkIPUogNyM2-0" value="消息队列代替锁&lt;br&gt;&lt;div&gt;HandlerThread+Handler+Message&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="tNLlz-yMEQtdrSRHmOsQ-1">
           <mxGeometry x="70" y="1850" width="210" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="cz2XUwopjPkIPUogNyM2-1" value="&lt;div&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;发送消息&lt;/font&gt;&lt;h1 id=&quot;executorservice&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;ExecutorService&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;+&lt;/font&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;&lt;span class=&quot;pln&quot;&gt;Executors&lt;/span&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;+Runnable&lt;/font&gt;&lt;/span&gt;&lt;/h1&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="tNLlz-yMEQtdrSRHmOsQ-1">
+        <mxCell id="cz2XUwopjPkIPUogNyM2-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.025;entryY=0.65;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="tNLlz-yMEQtdrSRHmOsQ-1" source="cz2XUwopjPkIPUogNyM2-1" target="cz2XUwopjPkIPUogNyM2-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cz2XUwopjPkIPUogNyM2-1" value="&lt;div&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;线程池&lt;/font&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;ExecutorService&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;+&lt;/font&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;&lt;span class=&quot;pln&quot;&gt;Executors&lt;/span&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;+Runnable&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="tNLlz-yMEQtdrSRHmOsQ-1">
           <mxGeometry x="60" y="1940" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cz2XUwopjPkIPUogNyM2-2" value="workManager" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="tNLlz-yMEQtdrSRHmOsQ-1">
+          <mxGeometry x="355" y="1960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cz2XUwopjPkIPUogNyM2-5" value="okhttp" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="tNLlz-yMEQtdrSRHmOsQ-1">
+          <mxGeometry x="70" y="2050" width="220" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
