@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-28T03:16:42.776Z" agent="5.0 (Windows)" etag="0xfVD_aHtFG4V9taCFjW" version="14.5.3" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-03-28T03:17:02.709Z" agent="5.0 (Windows)" etag="FSHJ9NZ7x8BnIC016NFK" version="14.5.3" type="github" pages="8">
   <diagram id="mVWWuTxC_VbO-vwNad3Q" name="Plan">
     <mxGraphModel dx="782" dy="404" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -350,8 +350,14 @@
         <mxCell id="3xgQviuacvtwmNVfQn_G-2" value="lottile" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="tNLlz-yMEQtdrSRHmOsQ-1">
           <mxGeometry x="360" y="2150" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="3xgQviuacvtwmNVfQn_G-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.006;entryY=0.324;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="tNLlz-yMEQtdrSRHmOsQ-1" source="3xgQviuacvtwmNVfQn_G-4" target="3xgQviuacvtwmNVfQn_G-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3xgQviuacvtwmNVfQn_G-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="tNLlz-yMEQtdrSRHmOsQ-1" source="3xgQviuacvtwmNVfQn_G-4" target="3xgQviuacvtwmNVfQn_G-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="3xgQviuacvtwmNVfQn_G-4" value="http协议" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="tNLlz-yMEQtdrSRHmOsQ-1">
-          <mxGeometry x="750" y="1850" width="120" height="80" as="geometry" />
+          <mxGeometry x="665" y="1840" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="3xgQviuacvtwmNVfQn_G-5" value="&lt;div align=&quot;left&quot;&gt;request&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;//格式&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;URL&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;method&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;head&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;body&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;//请求文本&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;method:GET/POST&lt;/div&gt;&lt;div&gt;//请求多媒体&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="tNLlz-yMEQtdrSRHmOsQ-1">
           <mxGeometry x="900" y="1730" width="160" height="170" as="geometry" />
