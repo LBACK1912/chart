@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-06T11:52:23.943Z" agent="5.0 (Windows)" etag="ZbpvltuMyhTAIxh2-u87" version="14.5.3" type="github" pages="14">
+<mxfile host="app.diagrams.net" modified="2021-04-06T12:14:00.764Z" agent="5.0 (Windows)" etag="KNdB3SW-1UNVGlymLgUU" version="14.5.3" type="github" pages="14">
   <diagram id="dWmSh3rdpuQd5Bmy_6qM" name="Battery">
     <mxGraphModel dx="782" dy="404" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -476,6 +476,9 @@
         </mxCell>
         <mxCell id="1Oo99CgqQ5jv6-xGTvB3-2" value="frameworks/base/packages/SystemUI/src/com/android/systemui/statusbar/notification/collection/notifcollection/NotifCollectionListener.java" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="xhEgfkJSY4XmHLy5GlEz-1">
           <mxGeometry x="30" y="570" width="750" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nPuG9T1i4EWWSTgWLFda-0" value="frameworks/base/packages/SystemUI/src/com/android/systemui/statusbar/notification/init/NotificationsController.kt" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="xhEgfkJSY4XmHLy5GlEz-1">
+          <mxGeometry x="30" y="590" width="620" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
