@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-06T12:19:15.283Z" agent="5.0 (Windows)" etag="hLLUzHSL5rreKbLZbnLH" version="14.5.3" type="github" pages="14">
+<mxfile host="app.diagrams.net" modified="2021-04-06T12:19:55.533Z" agent="5.0 (Windows)" etag="kZYzdrJ_y_G1tgC4wzyY" version="14.5.3" type="github" pages="14">
   <diagram id="dWmSh3rdpuQd5Bmy_6qM" name="Battery">
     <mxGraphModel dx="782" dy="404" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -468,11 +468,11 @@
         <mxCell id="lLzAMFsL7ng64oY9a4Ut-23" value="3.1frameworks/base/packages/SystemUI/src/com/android/systemui/statusbar/policy/WifiSignalController.java" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="xhEgfkJSY4XmHLy5GlEz-1">
           <mxGeometry x="60" y="170" width="590" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="1Oo99CgqQ5jv6-xGTvB3-0" value="frameworks/base/packages/SystemUI/src/com/android/systemui/statusbar/NotificationListener.java" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="xhEgfkJSY4XmHLy5GlEz-1">
-          <mxGeometry x="30" y="530" width="540" height="20" as="geometry" />
+        <mxCell id="1Oo99CgqQ5jv6-xGTvB3-0" value="4frameworks/base/packages/SystemUI/src/com/android/systemui/statusbar/NotificationListener.java" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="xhEgfkJSY4XmHLy5GlEz-1">
+          <mxGeometry x="30" y="690" width="550" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="1Oo99CgqQ5jv6-xGTvB3-1" value="frameworks/base/packages/SystemUI/src/com/android/systemui/statusbar/notification/NotificationEntryManager.java" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="xhEgfkJSY4XmHLy5GlEz-1">
-          <mxGeometry x="30" y="550" width="630" height="20" as="geometry" />
+        <mxCell id="1Oo99CgqQ5jv6-xGTvB3-1" value="3frameworks/base/packages/SystemUI/src/com/android/systemui/statusbar/notification/NotificationEntryManager.java" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="xhEgfkJSY4XmHLy5GlEz-1">
+          <mxGeometry x="30" y="670" width="640" height="20" as="geometry" />
         </mxCell>
         <mxCell id="nPuG9T1i4EWWSTgWLFda-0" value="2 frameworks/base/packages/SystemUI/src/com/android/systemui/statusbar/notification/init/NotificationsController.kt" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="xhEgfkJSY4XmHLy5GlEz-1">
           <mxGeometry x="30" y="630" width="630" height="20" as="geometry" />
